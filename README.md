@@ -19,22 +19,22 @@ Then open [http://localhost:8080/admin/](http://localhost:8080/admin/). After ed
 
 ## jsDelivr URLs
 
-After this repo is public on GitHub, replace `USER`, `REPO`, and the ref as needed.
+After this repo is public on GitHub, adjust the ref (`master`, tag, or commit SHA) as needed.
 
-**Latest on default branch** (e.g. `main`):
+**Latest on default branch** (e.g. `master`):
 
 ```text
-https://cdn.jsdelivr.net/gh/USER/REPO@main/data/experts.json
+https://cdn.jsdelivr.net/gh/ChrisDirksDev/gotl-experts-cdn@master/data/experts.json
 ```
 
 **Pinned tag or commit** (recommended for production; avoids surprises when CDN/browser caches):
 
 ```text
-https://cdn.jsdelivr.net/gh/USER/REPO@v1.0.0/data/experts.json
+https://cdn.jsdelivr.net/gh/ChrisDirksDev/gotl-experts-cdn@v1.0.0/data/experts.json
 ```
 
 ```text
-https://cdn.jsdelivr.net/gh/USER/REPO@abc1234/data/experts.json
+https://cdn.jsdelivr.net/gh/ChrisDirksDev/gotl-experts-cdn@abc1234/data/experts.json
 ```
 
 ## Using with the component
