@@ -46,17 +46,95 @@
     ]
   },
   {
-    "name": "test",
-    "role": "",
-    "location": "",
-    "bio": "",
+    "name": "Sarah Chen",
+    "role": "Leadership Coach & Podcast Host",
+    "location": "Toronto, Canada",
+    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
     "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-    "bookUrl": "",
-    "linkedinUrl": "",
-    "email": "",
-    "openUrl": "",
-    "focusTags": [],
-    "details": [],
-    "footerTags": []
+    "bookUrl": "#book-sarah",
+    "linkedinUrl": "https://www.linkedin.com/",
+    "email": "sarah@example.com",
+    "openUrl": "#profile-sarah",
+    "focusTags": [
+      "Focus: Executive presence",
+      "Team culture"
+    ],
+    "details": [
+      "Podcast host",
+      "Workshop facilitator"
+    ],
+    "footerTags": [
+      "Coach",
+      "Media"
+    ]
+  },
+  {
+    "name": "Sarah Chen",
+    "role": "Leadership Coach & Podcast Host",
+    "location": "Toronto, Canada",
+    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+    "bookUrl": "#book-sarah",
+    "linkedinUrl": "https://www.linkedin.com/",
+    "email": "sarah@example.com",
+    "openUrl": "#profile-sarah",
+    "focusTags": [
+      "Focus: Executive presence",
+      "Team culture"
+    ],
+    "details": [
+      "Podcast host",
+      "Workshop facilitator"
+    ],
+    "footerTags": [
+      "Coach",
+      "Media"
+    ]
+  },
+  {
+    "name": "Sarah Chen",
+    "role": "Leadership Coach & Podcast Host",
+    "location": "Toronto, Canada",
+    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+    "bookUrl": "#book-sarah",
+    "linkedinUrl": "https://www.linkedin.com/",
+    "email": "sarah@example.com",
+    "openUrl": "#profile-sarah",
+    "focusTags": [
+      "Focus: Executive presence",
+      "Team culture"
+    ],
+    "details": [
+      "Podcast host",
+      "Workshop facilitator"
+    ],
+    "footerTags": [
+      "Coach",
+      "Media"
+    ]
+  },
+  {
+    "name": "Sarah Chen",
+    "role": "Leadership Coach & Podcast Host",
+    "location": "Toronto, Canada",
+    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
+    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
+    "bookUrl": "#book-sarah",
+    "linkedinUrl": "https://www.linkedin.com/",
+    "email": "sarah@example.com",
+    "openUrl": "#profile-sarah",
+    "focusTags": [
+      "Focus: Executive presence",
+      "Team culture"
+    ],
+    "details": [
+      "Podcast host",
+      "Workshop facilitator"
+    ],
+    "footerTags": [
+      "Coach",
+      "Media"
+    ]
   }
 ]
