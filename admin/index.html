@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experts JSON editor</title>
+  <style>
+    :root {
+      --bg: #f4f2ef;
+      --surface: #fff;
+      --border: #c9c4bd;
+      --text: #1a1714;
+      --muted: #5c5750;
+      --accent: #2d5a4a;
+      --danger: #8b2942;
+      --banner: #fff3cd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.45;
+    }
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 0.75rem;
+      align-items: center;
+      padding: 0.75rem 1rem;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(0,0,0,.06);
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 1.05rem;
+      font-weight: 650;
+      flex: 1 1 auto;
+      min-width: 8rem;
+    }
+    .header button {
+      font: inherit;
+      cursor: pointer;
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+    }
+    .header button:hover { background: var(--bg); }
+    .header button.primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+    .header button.primary:hover { filter: brightness(1.06); }
+    .banner {
+      margin: 0;
+      padding: 0.75rem 1rem;
+      background: var(--banner);
+      border-bottom: 1px solid #e6d9a8;
+      color: #5c4810;
+      font-size: 0.9rem;
+    }
+    .banner code { font-size: 0.88em; }
+    main { max-width: 52rem; margin: 0 auto; padding: 1rem; }
+    .toolbar-msg {
+      min-height: 1.25rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+      width: 100%;
+      flex-basis: 100%;
+    }
+    .toolbar-msg.error { color: var(--danger); }
+    .toolbar-msg.ok { color: var(--accent); }
+    details.card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      margin-bottom: 0.75rem;
+      overflow: hidden;
+    }
+    details.card summary {
+      cursor: pointer;
+      padding: 0.65rem 1rem;
+      font-weight: 600;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+    details.card summary::-webkit-details-marker { display: none; }
+    details.card summary::after {
+      content: "▸";
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    details.card[open] summary::after { content: "▾"; }
+    .card-body { padding: 0 1rem 1rem; border-top: 1px solid var(--border); }
+    label {
+      display: block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      color: var(--muted);
+      margin: 0.75rem 0 0.25rem;
+    }
+    input[type="text"],
+    textarea {
+      width: 100%;
+      font: inherit;
+      padding: 0.45rem 0.55rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: #faf9f7;
+    }
+    textarea { min-height: 4.5rem; resize: vertical; }
+    .row-remove {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .row-remove button {
+      font: inherit;
+      cursor: pointer;
+      padding: 0.4rem 0.75rem;
+      border-radius: 6px;
+      border: 1px solid var(--danger);
+      background: #fff;
+      color: var(--danger);
+    }
+    .row-remove button:hover { background: #fdf2f4; }
+    .empty-state {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <h1>Experts JSON</h1>
+    <button type="button" class="primary" id="btn-add">Add expert</button>
+    <button type="button" id="btn-download">Download JSON</button>
+    <button type="button" id="btn-copy">Copy JSON</button>
+    <p class="toolbar-msg" id="toolbar-msg" aria-live="polite"></p>
+  </header>
+  <p class="banner" id="load-banner" hidden>
+    Could not load <code>data/experts.json</code>. Serve this repo from its root (e.g.
+    <code>python3 -m http.server 8080</code>) then open
+    <code>http://localhost:8080/admin/</code>
+  </p>
+  <main id="app"></main>
+
+  <script>
+(function () {
+  const FIELDS = [
+    "name", "role", "location", "bio", "image",
+    "bookUrl", "linkedinUrl", "email", "openUrl",
+  ];
+  const ARRAY_FIELDS = ["focusTags", "details", "footerTags"];
+
+  function emptyExpert() {
+    const o = {};
+    FIELDS.forEach((k) => { o[k] = ""; });
+    ARRAY_FIELDS.forEach((k) => { o[k] = []; });
+    return o;
+  }
+
+  function normalizeExpert(raw) {
+    const o = emptyExpert();
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return o;
+    FIELDS.forEach((k) => {
+      o[k] = raw[k] != null && typeof raw[k] === "string" ? raw[k] : String(raw[k] ?? "");
+    });
+    ARRAY_FIELDS.forEach((k) => {
+      const v = raw[k];
+      if (Array.isArray(v)) {
+        o[k] = v.map((x) => String(x ?? "").trim()).filter(Boolean);
+      } else if (v != null && typeof v === "string") {
+        o[k] = v.split(/\n/).map((s) => s.trim()).filter(Boolean);
+      } else {
+        o[k] = [];
+      }
+    });
+    return o;
+  }
+
+  function validateExperts(data) {
+    if (!Array.isArray(data)) return "Expected a JSON array.";
+    for (let i = 0; i < data.length; i++) {
+      const x = data[i];
+      if (x === null || typeof x !== "object" || Array.isArray(x)) {
+        return "Each item must be a plain object.";
+      }
+    }
+    return null;
+  }
+
+  function parseLines(text) {
+    return String(text ?? "")
+      .split(/\n/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+
+  function linesFromArray(arr) {
+    return (Array.isArray(arr) ? arr : []).join("\n");
+  }
+
+  let experts = [];
+  const app = document.getElementById("app");
+  const toolbarMsg = document.getElementById("toolbar-msg");
+  const loadBanner = document.getElementById("load-banner");
+
+  function setToolbarMsg(text, kind) {
+    toolbarMsg.textContent = text || "";
+    toolbarMsg.className = "toolbar-msg" + (kind ? " " + kind : "");
+  }
+
+  function serializeExperts() {
+    return experts.map((e) => {
+      const o = {};
+      FIELDS.forEach((k) => { o[k] = e[k] ?? ""; });
+      ARRAY_FIELDS.forEach((k) => {
+        o[k] = Array.isArray(e[k]) ? [...e[k]] : [];
+      });
+      return o;
+    });
+  }
+
+  function exportJsonString() {
+    return JSON.stringify(serializeExperts(), null, 2) + "\n";
+  }
+
+  function render() {
+    app.textContent = "";
+    if (experts.length === 0) {
+      const p = document.createElement("p");
+      p.className = "empty-state";
+      p.textContent = "No experts yet. Click “Add expert” to start.";
+      app.appendChild(p);
+      return;
+    }
+    experts.forEach((_, index) => {
+      const e = experts[index];
+      const card = document.createElement("details");
+      card.className = "card";
+      card.open = true;
+
+      const summary = document.createElement("summary");
+      const title = (e.name && e.name.trim()) || "(Untitled)";
+      const sub = (e.role && e.role.trim()) ? " — " + e.role : "";
+      summary.appendChild(document.createTextNode(title + sub));
+
+      const body = document.createElement("div");
+      body.className = "card-body";
+
+      function bindText(field, multiline) {
+        const lab = document.createElement("label");
+        lab.textContent = field;
+        body.appendChild(lab);
+        const el = multiline ? document.createElement("textarea") : document.createElement("input");
+        if (!multiline) el.type = "text";
+        el.value = e[field] ?? "";
+        el.addEventListener("input", () => {
+          experts[index][field] = el.value;
+          syncSummary();
+        });
+        body.appendChild(el);
+      }
+
+      function bindArray(field) {
+        const lab = document.createElement("label");
+        lab.textContent = field + " (one per line)";
+        body.appendChild(lab);
+        const ta = document.createElement("textarea");
+        ta.value = linesFromArray(e[field]);
+        ta.addEventListener("input", () => {
+          experts[index][field] = parseLines(ta.value);
+          syncSummary();
+        });
+        body.appendChild(ta);
+      }
+
+      function syncSummary() {
+        const cur = experts[index];
+        const t = (cur.name && cur.name.trim()) || "(Untitled)";
+        const s = (cur.role && cur.role.trim()) ? " — " + cur.role : "";
+        summary.textContent = "";
+        summary.appendChild(document.createTextNode(t + s));
+      }
+
+      bindText("name", false);
+      bindText("role", false);
+      bindArray("focusTags");
+      bindText("location", false);
+      bindArray("details");
+      bindText("bio", true);
+      bindArray("footerTags");
+      bindText("image", false);
+      bindText("bookUrl", false);
+      bindText("linkedinUrl", false);
+      bindText("email", false);
+      bindText("openUrl", false);
+
+      const rowRm = document.createElement("div");
+      rowRm.className = "row-remove";
+      const rm = document.createElement("button");
+      rm.type = "button";
+      rm.textContent = "Remove expert";
+      rm.addEventListener("click", () => {
+        if (!confirm("Remove this expert?")) return;
+        experts.splice(index, 1);
+        render();
+        setToolbarMsg("");
+      });
+      rowRm.appendChild(rm);
+      body.appendChild(rowRm);
+
+      card.appendChild(summary);
+      card.appendChild(body);
+      app.appendChild(card);
+    });
+  }
+
+  document.getElementById("btn-add").addEventListener("click", () => {
+    experts.push(emptyExpert());
+    render();
+    setToolbarMsg("");
+  });
+
+  document.getElementById("btn-download").addEventListener("click", () => {
+    const blob = new Blob([exportJsonString()], { type: "application/json" });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = "experts.json";
+    a.click();
+    URL.revokeObjectURL(a.href);
+    setToolbarMsg("Download started.", "ok");
+  });
+
+  document.getElementById("btn-copy").addEventListener("click", async () => {
+    const text = exportJsonString();
+    try {
+      await navigator.clipboard.writeText(text);
+      setToolbarMsg("Copied to clipboard.", "ok");
+    } catch {
+      setToolbarMsg("Could not copy (browser blocked clipboard). Use Download instead.", "error");
+    }
+  });
+
+  fetch("../data/experts.json")
+    .then((r) => {
+      if (!r.ok) throw new Error(String(r.status));
+      return r.json();
+    })
+    .then((data) => {
+      const err = validateExperts(data);
+      if (err) throw new Error(err);
+      experts = data.map(normalizeExpert);
+      loadBanner.hidden = true;
+      render();
+      setToolbarMsg("Loaded data/experts.json", "ok");
+    })
+    .catch(() => {
+      loadBanner.hidden = false;
+      experts = [];
+      render();
+      setToolbarMsg("Fix loading (see yellow banner) or add experts and export.", "error");
+    });
+})();
+  </script>
+</body>
+</html>
