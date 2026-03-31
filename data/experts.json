@@ -1,140 +1,584 @@
 [
   {
-    "name": "Jane Mercer",
-    "role": "Business Strategist",
-    "location": "Halifax, Canada",
-    "bio": "Helps women-led businesses clarify strategy, build visible brands, and scale with confidence through mentorship and practical frameworks.",
-    "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop",
-    "bookUrl": "#book-jane",
-    "linkedinUrl": "https://www.linkedin.com/",
-    "email": "hello@example.com",
-    "openUrl": "#profile-jane",
+    "name": "Megan Dirks",
+    "role": "Brand Strategist / Creative Entrepreneur",
+    "location": null,
+    "bio": "Brand coach and creator of The Girl on the Left who collaborates with women to share raw, transformative stories about growth, self-trust, and empowerment.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/4e853eb9-7257-4062-923a-c7fb4e7a7924/gotl-profile-megandirks.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/megandirks",
     "focusTags": [
-      "Focus: Women's Empowerment & Publishing"
+      "Video game addiction",
+      "PCOS",
+      "Entrepreneurship"
     ],
     "details": [
-      "Business speaker",
-      "Author",
-      "Startup mentor"
+      "Brand coach",
+      "Project creator",
+      "Storytelling advocate"
     ],
     "footerTags": [
-      "Business Expert",
+      "Brand",
+      "Creator"
+    ]
+  },
+  {
+    "name": "Mary Bouras",
+    "role": "Confidence & Etiquette Coach",
+    "location": null,
+    "bio": "Confidence and etiquette coach, military spouse, and mother of twins who helps others cultivate poise, presence, and authentic self-belief.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/179e0ade-92ea-40f9-984e-24d789e29f98/gotl-profile-marybouras.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/marybouras",
+    "focusTags": [
+      "Infertility",
+      "IVF journey",
+      "Career purpose",
+      "Twins",
+      "Military spouse life"
+    ],
+    "details": [
+      "Confidence coach",
+      "Etiquette coach",
+      "Speaker"
+    ],
+    "footerTags": [
+      "Coach",
+      "Etiquette"
+    ]
+  },
+  {
+    "name": "Tayler McCollum",
+    "role": "Self-Love Advocate / Podcast Host",
+    "location": null,
+    "bio": "Self-love advocate and host of Talks with Tayler who uses her lived experience with a cleft lip and palate to champion confidence, kindness, and anti-bullying.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/9b0749b4-3aac-44be-8450-35fe1ac4b099/gotl-profile-taylermccollum.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/taylermccollum",
+    "focusTags": [
+      "Bullying",
+      "Cleft lip & palate",
+      "Birth defects",
+      "True beauty",
+      "Self-love"
+    ],
+    "details": [
+      "Podcast host",
+      "Anti-bullying advocate",
+      "Self-love speaker"
+    ],
+    "footerTags": [
+      "Advocate",
+      "Media"
+    ]
+  },
+  {
+    "name": "Samantha Bailey",
+    "role": "Betrayal Trauma Coach / Author",
+    "location": null,
+    "bio": "Betrayal trauma coach and author who supports people healing from infidelity and relationship trauma so they can reclaim their lives.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/495ea326-46bb-4284-9925-81fc91c7f447/gotl-profile-samanthabailey.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/samanthabailey",
+    "focusTags": [
+      "Chronic infidelity",
+      "Betrayal trauma",
+      "Insecurities",
+      "Divorce"
+    ],
+    "details": [
+      "Trauma coach",
+      "Author",
+      "Recovery advocate"
+    ],
+    "footerTags": [
+      "Coach",
+      "Author"
+    ]
+  },
+  {
+    "name": "Jodi Harty",
+    "role": "Board Certified Drugless Practitioner",
+    "location": null,
+    "bio": "Holistic practitioner specializing in dried hormone testing who turned a life-altering collision and personal loss into a mission to help others heal naturally.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/670b4e87-471d-4081-bf7e-5c7f65f55e28/gotl-profile-jodiharty.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/jodiharty",
+    "focusTags": [
+      "Collision",
+      "Physical rehabilitation",
+      "Drugless practitioner",
+      "Family loss"
+    ],
+    "details": [
+      "Holistic health",
+      "Hormone testing",
+      "Wellness practitioner"
+    ],
+    "footerTags": [
+      "Wellness",
+      "Healing"
+    ]
+  },
+  {
+    "name": "Kingsley",
+    "role": "Alt Pop Songstress / Creative Visionary",
+    "location": null,
+    "bio": "International recording artist and creative visionary whose work centers on authenticity, self-love, and unapologetically becoming who you are.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/571bd574-baac-4513-b659-0d760b862a7d/gotl-profile-kingsley.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/kingsley",
+    "focusTags": [
+      "Authenticity",
+      "Stardom",
+      "Finding your voice",
+      "Singing",
+      "Chasing dreams"
+    ],
+    "details": [
+      "Recording artist",
+      "Creative leader",
+      "Retreat creator"
+    ],
+    "footerTags": [
+      "Music",
+      "Creative"
+    ]
+  },
+  {
+    "name": "Cheryl Heller",
+    "role": "Sobriety Advocate / Home Baker",
+    "location": null,
+    "bio": "Sobriety advocate and home bakery owner who shares a story of recovery, reinvention, and the joy of starting fresh.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/bd641edd-8154-460a-886b-381ccc0a8627/gotl-profile-cherylheller.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/cherylheller",
+    "focusTags": [
+      "Alcoholism",
+      "Addiction",
+      "Sobriety journey",
+      "Recovery",
+      "Home bakery"
+    ],
+    "details": [
+      "Sobriety advocate",
+      "Entrepreneur",
+      "Recovery speaker"
+    ],
+    "footerTags": [
+      "Recovery",
+      "Business"
+    ]
+  },
+  {
+    "name": "Ayesha Sodha",
+    "role": "The Power Whisperer / Entrepreneur",
+    "location": null,
+    "bio": "Entrepreneur and power coach focused on mindset, wealth creation, and helping women own their worth, take bold action, and stop playing small.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/feb68d48-69bd-4e7d-bb63-cb245fc20169/gotl-profile-ayeshasodha.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/ayeshasodha",
+    "focusTags": [
+      "Heartbreak",
+      "Reinventing",
+      "Wealth generation",
+      "Women in business"
+    ],
+    "details": [
+      "Business coach",
+      "Mindset mentor",
+      "Entrepreneur"
+    ],
+    "footerTags": [
+      "Coach",
+      "Wealth"
+    ]
+  },
+  {
+    "name": "Bea Recoussine",
+    "role": "Trauma Coach / Cancer Support Volunteer",
+    "location": null,
+    "bio": "Trauma coach and volunteer whose family cancer journey led her toward mindfulness, healing, and being more present for others.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/dfa2ead1-45c7-4fd1-bc26-14fcdbde9e77/gotl-profile-beatricerecoussine.png",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/bearecoussine",
+    "focusTags": [
+      "Family connection",
+      "Cancer journey",
+      "Parent support",
+      "Being present"
+    ],
+    "details": [
+      "Trauma coach",
+      "Hospital volunteer",
+      "Mindfulness advocate"
+    ],
+    "footerTags": [
+      "Healing",
+      "Support"
+    ]
+  },
+  {
+    "name": "Abbie Westgate",
+    "role": "Soma+IQ Breathwork Practitioner",
+    "location": null,
+    "bio": "Former police officer turned breathwork practitioner who now advocates for police wellness and mental health through Healing Blue Hearts.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/02bfd1ec-15c2-444a-8189-fc569858143e/gotl-profile-abbiewestgate.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/abbiewestgate",
+    "focusTags": [
+      "Dream job",
+      "Career burnout",
+      "Police wellness",
+      "Somatic breathwork"
+    ],
+    "details": [
+      "Breathwork practitioner",
+      "Police wellness advocate",
+      "Founder"
+    ],
+    "footerTags": [
+      "Wellness",
+      "Breathwork"
+    ]
+  },
+  {
+    "name": "Reesa Morala",
+    "role": "Marriage Therapist / Author",
+    "location": null,
+    "bio": "Marriage therapist and author whose work helps people break generational patterns, build healthier relationships, and create deeper connection.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/2840e2af-2f16-44be-8103-f730199d400d/gotl-profile-reesamorala.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/reesamorala",
+    "focusTags": [
+      "Generational trauma",
+      "People pleasing",
+      "Marriage therapy",
+      "Desires"
+    ],
+    "details": [
+      "Therapist",
+      "Relationship expert",
+      "Author"
+    ],
+    "footerTags": [
+      "Therapy",
+      "Relationships"
+    ]
+  },
+  {
+    "name": "Berenice Brito",
+    "role": "Transformational Guide / Wellness Coach",
+    "location": null,
+    "bio": "Wellness coach and transformational guide who helps others build healthy relationships, navigate major life shifts, and thrive after divorce.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/1748ff91-d74b-48ca-b671-8e729c5a53ad/gotl-profile-berenicebrito.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/berenicebrito",
+    "focusTags": [
+      "Growing apart",
+      "Divorce",
+      "Co-parenting",
+      "Healthy relationships",
+      "Thriving"
+    ],
+    "details": [
+      "Wellness coach",
+      "Transformational guide",
+      "Author"
+    ],
+    "footerTags": [
+      "Coach",
+      "Growth"
+    ]
+  },
+  {
+    "name": "Tawny Stephens",
+    "role": "Director / Actress",
+    "location": null,
+    "bio": "Theater artist, actress, and director who rebuilt her life after loss and now channels that resilience into performance and storytelling.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/24a4fb17-9e86-4918-8d48-f848a0bf976a/gotl-profile-tawnystephens.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/tawnystephens",
+    "focusTags": [
+      "Loss of loved one",
+      "Alcoholism",
+      "Grief",
+      "Anger",
+      "Rebuilding",
+      "Theatre"
+    ],
+    "details": [
+      "Director",
+      "Actor",
+      "Theater artist"
+    ],
+    "footerTags": [
+      "Theatre",
+      "Media"
+    ]
+  },
+  {
+    "name": "Coach Dr. Wu",
+    "role": "Healer & Restorer",
+    "location": null,
+    "bio": "Desert Storm veteran, coach, and medical doctor who supports others healing from trauma and PTSD with compassion and lived experience.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/901a109a-7740-47b8-b77e-ad23430f224d/gotl-profile-florianewu.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/coachdrwu",
+    "focusTags": [
+      "Desert Storm war",
+      "PTSD",
+      "Veteran recovery",
+      "Medical doctor",
+      "Wellness"
+    ],
+    "details": [
+      "Medical doctor",
+      "Trauma coach",
+      "Veteran advocate"
+    ],
+    "footerTags": [
+      "Trauma",
+      "Wellness"
+    ]
+  },
+  {
+    "name": "Brenda Del Granado",
+    "role": "Holistic Practitioner / Spinal Energetics",
+    "location": null,
+    "bio": "Certified Spinal Energetics practitioner who helps others release trauma and reconnect with their bodies through holistic healing.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/7728822f-ce40-4e00-8d3b-0b6329bc0fbf/gotl-profile-brendaflores.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/brendadelgranado",
+    "focusTags": [
+      "Youth support",
+      "Validation",
+      "Body image",
+      "Trauma",
+      "Sexual assault"
+    ],
+    "details": [
+      "Holistic practitioner",
+      "Spinal Energetics",
+      "Trauma healing"
+    ],
+    "footerTags": [
+      "Healing",
+      "Holistic"
+    ]
+  },
+  {
+    "name": "Diane Jacobs Natoli",
+    "role": "Health & Life Coach / Author",
+    "location": null,
+    "bio": "Health and life coach living with MS who helps others pursue purpose, vitality, and self-worth after profound personal loss and reinvention.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/9e16066a-82b6-4d0a-8885-584f032fa049/gotl-profile-dianenatoli.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/dianejacobsnatoli",
+    "focusTags": [
+      "Multiple sclerosis",
+      "Loss of loved ones",
+      "Marriage stigma",
+      "Self-worth"
+    ],
+    "details": [
+      "Life coach",
+      "Health coach",
+      "Author"
+    ],
+    "footerTags": [
+      "Coach",
+      "Wellness"
+    ]
+  },
+  {
+    "name": "Tiffany O'Hearn",
+    "role": "Energy Healer / Storyteller",
+    "location": null,
+    "bio": "Energy healer and storyteller who blends ancient wisdom, astrology, and personal transformation work to help others reconnect with joy and purpose.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/e78b44aa-ac8e-4f12-b1fc-ee1ccdc9d1e0/gotl-profile-tiffanyohearn.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/tiffanyohearn",
+    "focusTags": [
+      "Navigating abuse",
+      "Energy healing",
+      "Spirituality",
+      "Alchemy",
+      "Astrology"
+    ],
+    "details": [
+      "Energy healer",
+      "Storyteller",
+      "Astrology guide"
+    ],
+    "footerTags": [
+      "Healing",
+      "Spirituality"
+    ]
+  },
+  {
+    "name": "Tania Rizoski",
+    "role": "Integrative Professional Life Coach",
+    "location": null,
+    "bio": "Integrative leadership coach and women's retreat creator who helps women unlock their potential, build confidence, and create balance after corporate burnout.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/cb8dd05b-b66a-4c34-90c5-8450459e8319/gotl-profile-tanirizoski.jpg",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/taniarizoski",
+    "focusTags": [
+      "Cultural expectations",
+      "Corporate burnout",
+      "Wellness practitioner"
+    ],
+    "details": [
+      "Leadership coach",
+      "Retreat creator",
+      "Wellness mentor"
+    ],
+    "footerTags": [
+      "Leadership",
+      "Retreats"
+    ]
+  },
+  {
+    "name": "Dr. Michelle Marie Lappin",
+    "role": "Financial Strategist",
+    "location": null,
+    "bio": "Financial strategist, coach, and podcast host whose story centers on overcoming debt, navigating inheritance and financial turmoil, and building long-term stability. This summary was reconstructed from public episode and profile metadata because her full GOTL bio page did not load.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/07b3500f-1ef9-4a49-8b90-44cd94b716f3/gotl-profile-michellelappin.jpg",
+    "bookUrl": null,
+    "linkedinUrl": "https://www.linkedin.com/in/dr-michelle-marie-lappin-31a31437",
+    "email": null,
+    "openUrl": null,
+    "focusTags": [
+      "Debt recovery",
+      "Unexpected inheritance",
+      "Budgets",
+      "Financial stability"
+    ],
+    "details": [
+      "Financial coach",
+      "Podcast host",
+      "Author"
+    ],
+    "footerTags": [
+      "Finance",
+      "Coach"
+    ]
+  },
+  {
+    "name": "Lizzy Morris",
+    "role": "Mother / Birth Rights Advocate",
+    "location": null,
+    "bio": "Plus-size mom, birth rights advocate, and activist who shares her healing birth journey to support other women reclaiming agency in motherhood.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/1783920a-ae08-4c23-8c39-420578a24ed7/gotl-profile-lizzymorris.png",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/lizzymorris",
+    "focusTags": [
+      "Motherhood",
+      "Body positivity",
+      "Activism",
+      "Plus size advocacy",
+      "Home births"
+    ],
+    "details": [
+      "Birth advocate",
+      "Human rights activist",
+      "Motherhood creator"
+    ],
+    "footerTags": [
+      "Motherhood",
+      "Advocacy"
+    ]
+  },
+  {
+    "name": "Kimeiko Rae Vision",
+    "role": "Angel Warrior / Live Event Emcee",
+    "location": null,
+    "bio": "Speaker and live event emcee who uses storytelling, mythology, and art to help people move through real-world challenges and transformation.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/c120e955-9b12-4fcd-b424-36f8e6a35ef8/gotl-profile-kimeikoraevision.png",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/kimeikoraevision",
+    "focusTags": [
+      "Domestic violence",
+      "Northern lights",
+      "Angels",
+      "Authority",
+      "Kindness"
+    ],
+    "details": [
+      "Event emcee",
+      "Storyteller",
+      "Transformation guide"
+    ],
+    "footerTags": [
+      "Events",
       "Speaker"
     ]
   },
   {
-    "name": "Sarah Chen",
-    "role": "Leadership Coach & Podcast Host",
-    "location": "Toronto, Canada",
-    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
-    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-    "bookUrl": "#book-sarah",
-    "linkedinUrl": "https://www.linkedin.com/",
-    "email": "sarah@example.com",
-    "openUrl": "#profile-sarah",
+    "name": "Amanda Chatzikonstantinou",
+    "role": "Teen Empowerment Coach",
+    "location": null,
+    "bio": "Coach focused on helping teens and young adults build confidence, resilience, and purpose through practical life skills and stress-management tools.",
+    "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/8d530469-05ae-4813-bfd1-38bee109e208/gotl-profile-amandachatzikonstantinou.png",
+    "bookUrl": null,
+    "linkedinUrl": null,
+    "email": null,
+    "openUrl": "https://www.thegirlontheleft.com/amandachatzikonstantinou",
     "focusTags": [
-      "Focus: Executive presence",
-      "Team culture"
+      "Anxiety",
+      "Mental health",
+      "Confidence building",
+      "Teen empowerment"
     ],
     "details": [
-      "Podcast host",
-      "Workshop facilitator"
+      "Teen coach",
+      "Young adult mentor",
+      "Personal growth coach"
     ],
     "footerTags": [
       "Coach",
-      "Media"
-    ]
-  },
-  {
-    "name": "Sarah Chen",
-    "role": "Leadership Coach & Podcast Host",
-    "location": "Toronto, Canada",
-    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
-    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-    "bookUrl": "#book-sarah",
-    "linkedinUrl": "https://www.linkedin.com/",
-    "email": "sarah@example.com",
-    "openUrl": "#profile-sarah",
-    "focusTags": [
-      "Focus: Executive presence",
-      "Team culture"
-    ],
-    "details": [
-      "Podcast host",
-      "Workshop facilitator"
-    ],
-    "footerTags": [
-      "Coach",
-      "Media"
-    ]
-  },
-  {
-    "name": "Sarah Chen",
-    "role": "Leadership Coach & Podcast Host",
-    "location": "Toronto, Canada",
-    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
-    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-    "bookUrl": "#book-sarah",
-    "linkedinUrl": "https://www.linkedin.com/",
-    "email": "sarah@example.com",
-    "openUrl": "#profile-sarah",
-    "focusTags": [
-      "Focus: Executive presence",
-      "Team culture"
-    ],
-    "details": [
-      "Podcast host",
-      "Workshop facilitator"
-    ],
-    "footerTags": [
-      "Coach",
-      "Media"
-    ]
-  },
-  {
-    "name": "Sarah Chen",
-    "role": "Leadership Coach & Podcast Host",
-    "location": "Toronto, Canada",
-    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
-    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-    "bookUrl": "#book-sarah",
-    "linkedinUrl": "https://www.linkedin.com/",
-    "email": "sarah@example.com",
-    "openUrl": "#profile-sarah",
-    "focusTags": [
-      "Focus: Executive presence",
-      "Team culture"
-    ],
-    "details": [
-      "Podcast host",
-      "Workshop facilitator"
-    ],
-    "footerTags": [
-      "Coach",
-      "Media"
-    ]
-  },
-  {
-    "name": "Sarah Chen",
-    "role": "Leadership Coach & Podcast Host",
-    "location": "Toronto, Canada",
-    "bio": "Partners with emerging leaders to strengthen communication, boundaries, and team dynamics—rooted in empathy and measurable outcomes.",
-    "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop",
-    "bookUrl": "#book-sarah",
-    "linkedinUrl": "https://www.linkedin.com/",
-    "email": "sarah@example.com",
-    "openUrl": "#profile-sarah",
-    "focusTags": [
-      "Focus: Executive presence",
-      "Team culture"
-    ],
-    "details": [
-      "Podcast host",
-      "Workshop facilitator"
-    ],
-    "footerTags": [
-      "Coach",
-      "Media"
+      "Youth"
     ]
   }
 ]
