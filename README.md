@@ -4,8 +4,69 @@ Static expert directory data for the gotl **expert-directory** component, served
 
 ## Contents
 
-- `data/experts.json` — JSON array of expert objects (`name`, `role`, `focusTags`, `location`, `details`, `bio`, `footerTags`, `image`, `bookUrl`, `linkedinUrl`, `email`, `openUrl`). Same shape as `DEFAULT_EXPERTS` in the component’s `script.js`.
+- `data/experts.json` — JSON array of expert objects (see **Schema** below). Same general shape as `DEFAULT_EXPERTS` in the component’s `script.js`; extend the component when you need `quote`, `heroImage`, `social`, or `media` in the UI.
 - `admin/index.html` — browser editor for that JSON (download or copy the result and replace `data/experts.json` in git).
+
+## Schema
+
+Each item is a plain object. **All fields are optional for consumers** except that a useful card usually needs at least `name` and some display text.
+
+### Core (existing)
+
+| Field | Type | Notes |
+| ----- | ---- | ----- |
+| `name` | string | |
+| `role` | string | |
+| `location` | string | |
+| `bio` | string | |
+| `image` | string | Profile / card image URL |
+| `bookUrl` | string | |
+| `linkedinUrl` | string | Legacy top-level link; see `social.linkedin` |
+| `email` | string | |
+| `openUrl` | string | e.g. GOTL profile page |
+| `focusTags` | string[] | |
+| `details` | string[] | |
+| `footerTags` | string[] | |
+
+### Quote & hero
+
+| Field | Type | Notes |
+| ----- | ---- | ----- |
+| `quote` | string | Short pull quote |
+| `heroImage` | string | Larger header image; **`image`** remains the profile/card photo |
+
+### `social` (optional object)
+
+String URL per platform. **No key is required** — omit a key or leave its value empty when unused.
+
+Supported keys (consumers / admin may expose any subset):
+
+`instagram`, `facebook`, `twitter`, `tiktok`, `linkedin`, `youtube`, `threads`, `pinterest`, `bluesky`, `mastodon`, `github`, `snapchat`
+
+If both `linkedinUrl` and `social.linkedin` exist, consumers may prefer `social.linkedin` and fall back to `linkedinUrl`.
+
+### `media` (optional object)
+
+```json
+{
+  "spotifyUrl": "",
+  "youtube": {
+    "channelUrl": "",
+    "videoUrls": [],
+    "reelUrls": []
+  },
+  "gallery": []
+}
+```
+
+- `spotifyUrl`: one link (show, artist, episode, etc.).
+- `youtube.channelUrl`: channel page.
+- `youtube.videoUrls` / `youtube.reelUrls`: arrays of video or Shorts URLs.
+- `gallery`: array of `{ "url": "…", "alt": "…" }` (`alt` optional / may be empty).
+
+### Demo / placeholder data
+
+The committed `experts.json` may use obvious placeholders (`example.com`, `picsum.photos`, `Demo City, ST`, `@example.com` emails) for local previews. Replace with real values before production.
 
 ## Editing data locally
 

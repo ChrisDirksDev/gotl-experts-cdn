@@ -2,13 +2,57 @@
   {
     "name": "Megan Dirks",
     "role": "Brand Strategist / Creative Entrepreneur",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Brand coach and creator of The Girl on the Left who collaborates with women to share raw, transformative stories about growth, self-trust, and empowerment.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/4e853eb9-7257-4062-923a-c7fb4e7a7924/gotl-profile-megandirks.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/megan-dirks",
+    "linkedinUrl": "https://example.com/in/megan-dirks",
+    "email": "megan-dirks@example.com",
     "openUrl": "https://www.thegirlontheleft.com/megandirks",
+    "quote": "Brand coach and creator of The Girl on the Left who collaborates with women to share raw, transformative stories about growth, self-trust, and empowerment.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-megan-dirks/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/megan-dirks",
+      "facebook": "https://example.com/social/facebook/megan-dirks",
+      "twitter": "https://example.com/social/twitter/megan-dirks",
+      "tiktok": "https://example.com/social/tiktok/megan-dirks",
+      "linkedin": "https://example.com/social/linkedin/megan-dirks",
+      "youtube": "https://example.com/social/youtube/megan-dirks",
+      "threads": "https://example.com/social/threads/megan-dirks",
+      "pinterest": "https://example.com/social/pinterest/megan-dirks",
+      "bluesky": "https://example.com/social/bluesky/megan-dirks",
+      "mastodon": "https://example.com/social/mastodon/megan-dirks",
+      "github": "https://example.com/social/github/megan-dirks",
+      "snapchat": "https://example.com/social/snapchat/megan-dirks"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/megan-dirks",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/megan-dirks",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-megan-dirks-1",
+          "https://example.com/youtube/watch?v=demo-megan-dirks-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-megan-dirks-r1",
+          "https://example.com/youtube/shorts/demo-megan-dirks-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-megan-dirks-a/800/600",
+          "alt": "Gallery \u2014 Megan Dirks, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-megan-dirks-b/800/600",
+          "alt": "Gallery \u2014 Megan Dirks, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-megan-dirks-c/800/600",
+          "alt": "Gallery \u2014 Megan Dirks, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Video game addiction",
       "PCOS",
@@ -27,13 +71,57 @@
   {
     "name": "Mary Bouras",
     "role": "Confidence & Etiquette Coach",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Confidence and etiquette coach, military spouse, and mother of twins who helps others cultivate poise, presence, and authentic self-belief.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/179e0ade-92ea-40f9-984e-24d789e29f98/gotl-profile-marybouras.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/mary-bouras",
+    "linkedinUrl": "https://example.com/in/mary-bouras",
+    "email": "mary-bouras@example.com",
     "openUrl": "https://www.thegirlontheleft.com/marybouras",
+    "quote": "Confidence and etiquette coach, military spouse, and mother of twins who helps others cultivate poise, presence, and authentic self-belief.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-mary-bouras/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/mary-bouras",
+      "facebook": "https://example.com/social/facebook/mary-bouras",
+      "twitter": "https://example.com/social/twitter/mary-bouras",
+      "tiktok": "https://example.com/social/tiktok/mary-bouras",
+      "linkedin": "https://example.com/social/linkedin/mary-bouras",
+      "youtube": "https://example.com/social/youtube/mary-bouras",
+      "threads": "https://example.com/social/threads/mary-bouras",
+      "pinterest": "https://example.com/social/pinterest/mary-bouras",
+      "bluesky": "https://example.com/social/bluesky/mary-bouras",
+      "mastodon": "https://example.com/social/mastodon/mary-bouras",
+      "github": "https://example.com/social/github/mary-bouras",
+      "snapchat": "https://example.com/social/snapchat/mary-bouras"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/mary-bouras",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/mary-bouras",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-mary-bouras-1",
+          "https://example.com/youtube/watch?v=demo-mary-bouras-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-mary-bouras-r1",
+          "https://example.com/youtube/shorts/demo-mary-bouras-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-mary-bouras-a/800/600",
+          "alt": "Gallery \u2014 Mary Bouras, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-mary-bouras-b/800/600",
+          "alt": "Gallery \u2014 Mary Bouras, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-mary-bouras-c/800/600",
+          "alt": "Gallery \u2014 Mary Bouras, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Infertility",
       "IVF journey",
@@ -54,13 +142,57 @@
   {
     "name": "Tayler McCollum",
     "role": "Self-Love Advocate / Podcast Host",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Self-love advocate and host of Talks with Tayler who uses her lived experience with a cleft lip and palate to champion confidence, kindness, and anti-bullying.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/9b0749b4-3aac-44be-8450-35fe1ac4b099/gotl-profile-taylermccollum.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/tayler-mccollum",
+    "linkedinUrl": "https://example.com/in/tayler-mccollum",
+    "email": "tayler-mccollum@example.com",
     "openUrl": "https://www.thegirlontheleft.com/taylermccollum",
+    "quote": "Self-love advocate and host of Talks with Tayler who uses her lived experience with a cleft lip and palate to champion confidence, kindness, and anti-bullying.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-tayler-mccollum/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/tayler-mccollum",
+      "facebook": "https://example.com/social/facebook/tayler-mccollum",
+      "twitter": "https://example.com/social/twitter/tayler-mccollum",
+      "tiktok": "https://example.com/social/tiktok/tayler-mccollum",
+      "linkedin": "https://example.com/social/linkedin/tayler-mccollum",
+      "youtube": "https://example.com/social/youtube/tayler-mccollum",
+      "threads": "https://example.com/social/threads/tayler-mccollum",
+      "pinterest": "https://example.com/social/pinterest/tayler-mccollum",
+      "bluesky": "https://example.com/social/bluesky/tayler-mccollum",
+      "mastodon": "https://example.com/social/mastodon/tayler-mccollum",
+      "github": "https://example.com/social/github/tayler-mccollum",
+      "snapchat": "https://example.com/social/snapchat/tayler-mccollum"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/tayler-mccollum",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/tayler-mccollum",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-tayler-mccollum-1",
+          "https://example.com/youtube/watch?v=demo-tayler-mccollum-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-tayler-mccollum-r1",
+          "https://example.com/youtube/shorts/demo-tayler-mccollum-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tayler-mccollum-a/800/600",
+          "alt": "Gallery \u2014 Tayler McCollum, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tayler-mccollum-b/800/600",
+          "alt": "Gallery \u2014 Tayler McCollum, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tayler-mccollum-c/800/600",
+          "alt": "Gallery \u2014 Tayler McCollum, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Bullying",
       "Cleft lip & palate",
@@ -81,13 +213,57 @@
   {
     "name": "Samantha Bailey",
     "role": "Betrayal Trauma Coach / Author",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Betrayal trauma coach and author who supports people healing from infidelity and relationship trauma so they can reclaim their lives.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/495ea326-46bb-4284-9925-81fc91c7f447/gotl-profile-samanthabailey.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/samantha-bailey",
+    "linkedinUrl": "https://example.com/in/samantha-bailey",
+    "email": "samantha-bailey@example.com",
     "openUrl": "https://www.thegirlontheleft.com/samanthabailey",
+    "quote": "Betrayal trauma coach and author who supports people healing from infidelity and relationship trauma so they can reclaim their lives.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-samantha-bailey/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/samantha-bailey",
+      "facebook": "https://example.com/social/facebook/samantha-bailey",
+      "twitter": "https://example.com/social/twitter/samantha-bailey",
+      "tiktok": "https://example.com/social/tiktok/samantha-bailey",
+      "linkedin": "https://example.com/social/linkedin/samantha-bailey",
+      "youtube": "https://example.com/social/youtube/samantha-bailey",
+      "threads": "https://example.com/social/threads/samantha-bailey",
+      "pinterest": "https://example.com/social/pinterest/samantha-bailey",
+      "bluesky": "https://example.com/social/bluesky/samantha-bailey",
+      "mastodon": "https://example.com/social/mastodon/samantha-bailey",
+      "github": "https://example.com/social/github/samantha-bailey",
+      "snapchat": "https://example.com/social/snapchat/samantha-bailey"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/samantha-bailey",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/samantha-bailey",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-samantha-bailey-1",
+          "https://example.com/youtube/watch?v=demo-samantha-bailey-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-samantha-bailey-r1",
+          "https://example.com/youtube/shorts/demo-samantha-bailey-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-samantha-bailey-a/800/600",
+          "alt": "Gallery \u2014 Samantha Bailey, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-samantha-bailey-b/800/600",
+          "alt": "Gallery \u2014 Samantha Bailey, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-samantha-bailey-c/800/600",
+          "alt": "Gallery \u2014 Samantha Bailey, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Chronic infidelity",
       "Betrayal trauma",
@@ -107,13 +283,57 @@
   {
     "name": "Jodi Harty",
     "role": "Board Certified Drugless Practitioner",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Holistic practitioner specializing in dried hormone testing who turned a life-altering collision and personal loss into a mission to help others heal naturally.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/670b4e87-471d-4081-bf7e-5c7f65f55e28/gotl-profile-jodiharty.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/jodi-harty",
+    "linkedinUrl": "https://example.com/in/jodi-harty",
+    "email": "jodi-harty@example.com",
     "openUrl": "https://www.thegirlontheleft.com/jodiharty",
+    "quote": "Holistic practitioner specializing in dried hormone testing who turned a life-altering collision and personal loss into a mission to help others heal naturally.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-jodi-harty/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/jodi-harty",
+      "facebook": "https://example.com/social/facebook/jodi-harty",
+      "twitter": "https://example.com/social/twitter/jodi-harty",
+      "tiktok": "https://example.com/social/tiktok/jodi-harty",
+      "linkedin": "https://example.com/social/linkedin/jodi-harty",
+      "youtube": "https://example.com/social/youtube/jodi-harty",
+      "threads": "https://example.com/social/threads/jodi-harty",
+      "pinterest": "https://example.com/social/pinterest/jodi-harty",
+      "bluesky": "https://example.com/social/bluesky/jodi-harty",
+      "mastodon": "https://example.com/social/mastodon/jodi-harty",
+      "github": "https://example.com/social/github/jodi-harty",
+      "snapchat": "https://example.com/social/snapchat/jodi-harty"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/jodi-harty",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/jodi-harty",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-jodi-harty-1",
+          "https://example.com/youtube/watch?v=demo-jodi-harty-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-jodi-harty-r1",
+          "https://example.com/youtube/shorts/demo-jodi-harty-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-jodi-harty-a/800/600",
+          "alt": "Gallery \u2014 Jodi Harty, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-jodi-harty-b/800/600",
+          "alt": "Gallery \u2014 Jodi Harty, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-jodi-harty-c/800/600",
+          "alt": "Gallery \u2014 Jodi Harty, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Collision",
       "Physical rehabilitation",
@@ -133,13 +353,57 @@
   {
     "name": "Kingsley",
     "role": "Alt Pop Songstress / Creative Visionary",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "International recording artist and creative visionary whose work centers on authenticity, self-love, and unapologetically becoming who you are.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/571bd574-baac-4513-b659-0d760b862a7d/gotl-profile-kingsley.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/kingsley",
+    "linkedinUrl": "https://example.com/in/kingsley",
+    "email": "kingsley@example.com",
     "openUrl": "https://www.thegirlontheleft.com/kingsley",
+    "quote": "International recording artist and creative visionary whose work centers on authenticity, self-love, and unapologetically becoming who you are.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-kingsley/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/kingsley",
+      "facebook": "https://example.com/social/facebook/kingsley",
+      "twitter": "https://example.com/social/twitter/kingsley",
+      "tiktok": "https://example.com/social/tiktok/kingsley",
+      "linkedin": "https://example.com/social/linkedin/kingsley",
+      "youtube": "https://example.com/social/youtube/kingsley",
+      "threads": "https://example.com/social/threads/kingsley",
+      "pinterest": "https://example.com/social/pinterest/kingsley",
+      "bluesky": "https://example.com/social/bluesky/kingsley",
+      "mastodon": "https://example.com/social/mastodon/kingsley",
+      "github": "https://example.com/social/github/kingsley",
+      "snapchat": "https://example.com/social/snapchat/kingsley"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/kingsley",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/kingsley",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-kingsley-1",
+          "https://example.com/youtube/watch?v=demo-kingsley-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-kingsley-r1",
+          "https://example.com/youtube/shorts/demo-kingsley-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-kingsley-a/800/600",
+          "alt": "Gallery \u2014 Kingsley, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-kingsley-b/800/600",
+          "alt": "Gallery \u2014 Kingsley, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-kingsley-c/800/600",
+          "alt": "Gallery \u2014 Kingsley, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Authenticity",
       "Stardom",
@@ -160,13 +424,57 @@
   {
     "name": "Cheryl Heller",
     "role": "Sobriety Advocate / Home Baker",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Sobriety advocate and home bakery owner who shares a story of recovery, reinvention, and the joy of starting fresh.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/bd641edd-8154-460a-886b-381ccc0a8627/gotl-profile-cherylheller.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/cheryl-heller",
+    "linkedinUrl": "https://example.com/in/cheryl-heller",
+    "email": "cheryl-heller@example.com",
     "openUrl": "https://www.thegirlontheleft.com/cherylheller",
+    "quote": "Sobriety advocate and home bakery owner who shares a story of recovery, reinvention, and the joy of starting fresh.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-cheryl-heller/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/cheryl-heller",
+      "facebook": "https://example.com/social/facebook/cheryl-heller",
+      "twitter": "https://example.com/social/twitter/cheryl-heller",
+      "tiktok": "https://example.com/social/tiktok/cheryl-heller",
+      "linkedin": "https://example.com/social/linkedin/cheryl-heller",
+      "youtube": "https://example.com/social/youtube/cheryl-heller",
+      "threads": "https://example.com/social/threads/cheryl-heller",
+      "pinterest": "https://example.com/social/pinterest/cheryl-heller",
+      "bluesky": "https://example.com/social/bluesky/cheryl-heller",
+      "mastodon": "https://example.com/social/mastodon/cheryl-heller",
+      "github": "https://example.com/social/github/cheryl-heller",
+      "snapchat": "https://example.com/social/snapchat/cheryl-heller"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/cheryl-heller",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/cheryl-heller",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-cheryl-heller-1",
+          "https://example.com/youtube/watch?v=demo-cheryl-heller-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-cheryl-heller-r1",
+          "https://example.com/youtube/shorts/demo-cheryl-heller-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-cheryl-heller-a/800/600",
+          "alt": "Gallery \u2014 Cheryl Heller, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-cheryl-heller-b/800/600",
+          "alt": "Gallery \u2014 Cheryl Heller, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-cheryl-heller-c/800/600",
+          "alt": "Gallery \u2014 Cheryl Heller, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Alcoholism",
       "Addiction",
@@ -187,13 +495,57 @@
   {
     "name": "Ayesha Sodha",
     "role": "The Power Whisperer / Entrepreneur",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Entrepreneur and power coach focused on mindset, wealth creation, and helping women own their worth, take bold action, and stop playing small.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/feb68d48-69bd-4e7d-bb63-cb245fc20169/gotl-profile-ayeshasodha.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/ayesha-sodha",
+    "linkedinUrl": "https://example.com/in/ayesha-sodha",
+    "email": "ayesha-sodha@example.com",
     "openUrl": "https://www.thegirlontheleft.com/ayeshasodha",
+    "quote": "Entrepreneur and power coach focused on mindset, wealth creation, and helping women own their worth, take bold action, and stop playing small.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-ayesha-sodha/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/ayesha-sodha",
+      "facebook": "https://example.com/social/facebook/ayesha-sodha",
+      "twitter": "https://example.com/social/twitter/ayesha-sodha",
+      "tiktok": "https://example.com/social/tiktok/ayesha-sodha",
+      "linkedin": "https://example.com/social/linkedin/ayesha-sodha",
+      "youtube": "https://example.com/social/youtube/ayesha-sodha",
+      "threads": "https://example.com/social/threads/ayesha-sodha",
+      "pinterest": "https://example.com/social/pinterest/ayesha-sodha",
+      "bluesky": "https://example.com/social/bluesky/ayesha-sodha",
+      "mastodon": "https://example.com/social/mastodon/ayesha-sodha",
+      "github": "https://example.com/social/github/ayesha-sodha",
+      "snapchat": "https://example.com/social/snapchat/ayesha-sodha"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/ayesha-sodha",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/ayesha-sodha",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-ayesha-sodha-1",
+          "https://example.com/youtube/watch?v=demo-ayesha-sodha-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-ayesha-sodha-r1",
+          "https://example.com/youtube/shorts/demo-ayesha-sodha-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-ayesha-sodha-a/800/600",
+          "alt": "Gallery \u2014 Ayesha Sodha, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-ayesha-sodha-b/800/600",
+          "alt": "Gallery \u2014 Ayesha Sodha, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-ayesha-sodha-c/800/600",
+          "alt": "Gallery \u2014 Ayesha Sodha, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Heartbreak",
       "Reinventing",
@@ -213,13 +565,57 @@
   {
     "name": "Bea Recoussine",
     "role": "Trauma Coach / Cancer Support Volunteer",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Trauma coach and volunteer whose family cancer journey led her toward mindfulness, healing, and being more present for others.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/dfa2ead1-45c7-4fd1-bc26-14fcdbde9e77/gotl-profile-beatricerecoussine.png",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/bea-recoussine",
+    "linkedinUrl": "https://example.com/in/bea-recoussine",
+    "email": "bea-recoussine@example.com",
     "openUrl": "https://www.thegirlontheleft.com/bearecoussine",
+    "quote": "Trauma coach and volunteer whose family cancer journey led her toward mindfulness, healing, and being more present for others.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-bea-recoussine/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/bea-recoussine",
+      "facebook": "https://example.com/social/facebook/bea-recoussine",
+      "twitter": "https://example.com/social/twitter/bea-recoussine",
+      "tiktok": "https://example.com/social/tiktok/bea-recoussine",
+      "linkedin": "https://example.com/social/linkedin/bea-recoussine",
+      "youtube": "https://example.com/social/youtube/bea-recoussine",
+      "threads": "https://example.com/social/threads/bea-recoussine",
+      "pinterest": "https://example.com/social/pinterest/bea-recoussine",
+      "bluesky": "https://example.com/social/bluesky/bea-recoussine",
+      "mastodon": "https://example.com/social/mastodon/bea-recoussine",
+      "github": "https://example.com/social/github/bea-recoussine",
+      "snapchat": "https://example.com/social/snapchat/bea-recoussine"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/bea-recoussine",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/bea-recoussine",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-bea-recoussine-1",
+          "https://example.com/youtube/watch?v=demo-bea-recoussine-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-bea-recoussine-r1",
+          "https://example.com/youtube/shorts/demo-bea-recoussine-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-bea-recoussine-a/800/600",
+          "alt": "Gallery \u2014 Bea Recoussine, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-bea-recoussine-b/800/600",
+          "alt": "Gallery \u2014 Bea Recoussine, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-bea-recoussine-c/800/600",
+          "alt": "Gallery \u2014 Bea Recoussine, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Family connection",
       "Cancer journey",
@@ -239,13 +635,57 @@
   {
     "name": "Abbie Westgate",
     "role": "Soma+IQ Breathwork Practitioner",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Former police officer turned breathwork practitioner who now advocates for police wellness and mental health through Healing Blue Hearts.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/02bfd1ec-15c2-444a-8189-fc569858143e/gotl-profile-abbiewestgate.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/abbie-westgate",
+    "linkedinUrl": "https://example.com/in/abbie-westgate",
+    "email": "abbie-westgate@example.com",
     "openUrl": "https://www.thegirlontheleft.com/abbiewestgate",
+    "quote": "Former police officer turned breathwork practitioner who now advocates for police wellness and mental health through Healing Blue Hearts.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-abbie-westgate/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/abbie-westgate",
+      "facebook": "https://example.com/social/facebook/abbie-westgate",
+      "twitter": "https://example.com/social/twitter/abbie-westgate",
+      "tiktok": "https://example.com/social/tiktok/abbie-westgate",
+      "linkedin": "https://example.com/social/linkedin/abbie-westgate",
+      "youtube": "https://example.com/social/youtube/abbie-westgate",
+      "threads": "https://example.com/social/threads/abbie-westgate",
+      "pinterest": "https://example.com/social/pinterest/abbie-westgate",
+      "bluesky": "https://example.com/social/bluesky/abbie-westgate",
+      "mastodon": "https://example.com/social/mastodon/abbie-westgate",
+      "github": "https://example.com/social/github/abbie-westgate",
+      "snapchat": "https://example.com/social/snapchat/abbie-westgate"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/abbie-westgate",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/abbie-westgate",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-abbie-westgate-1",
+          "https://example.com/youtube/watch?v=demo-abbie-westgate-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-abbie-westgate-r1",
+          "https://example.com/youtube/shorts/demo-abbie-westgate-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-abbie-westgate-a/800/600",
+          "alt": "Gallery \u2014 Abbie Westgate, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-abbie-westgate-b/800/600",
+          "alt": "Gallery \u2014 Abbie Westgate, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-abbie-westgate-c/800/600",
+          "alt": "Gallery \u2014 Abbie Westgate, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Dream job",
       "Career burnout",
@@ -265,13 +705,57 @@
   {
     "name": "Reesa Morala",
     "role": "Marriage Therapist / Author",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Marriage therapist and author whose work helps people break generational patterns, build healthier relationships, and create deeper connection.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/2840e2af-2f16-44be-8103-f730199d400d/gotl-profile-reesamorala.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/reesa-morala",
+    "linkedinUrl": "https://example.com/in/reesa-morala",
+    "email": "reesa-morala@example.com",
     "openUrl": "https://www.thegirlontheleft.com/reesamorala",
+    "quote": "Marriage therapist and author whose work helps people break generational patterns, build healthier relationships, and create deeper connection.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-reesa-morala/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/reesa-morala",
+      "facebook": "https://example.com/social/facebook/reesa-morala",
+      "twitter": "https://example.com/social/twitter/reesa-morala",
+      "tiktok": "https://example.com/social/tiktok/reesa-morala",
+      "linkedin": "https://example.com/social/linkedin/reesa-morala",
+      "youtube": "https://example.com/social/youtube/reesa-morala",
+      "threads": "https://example.com/social/threads/reesa-morala",
+      "pinterest": "https://example.com/social/pinterest/reesa-morala",
+      "bluesky": "https://example.com/social/bluesky/reesa-morala",
+      "mastodon": "https://example.com/social/mastodon/reesa-morala",
+      "github": "https://example.com/social/github/reesa-morala",
+      "snapchat": "https://example.com/social/snapchat/reesa-morala"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/reesa-morala",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/reesa-morala",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-reesa-morala-1",
+          "https://example.com/youtube/watch?v=demo-reesa-morala-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-reesa-morala-r1",
+          "https://example.com/youtube/shorts/demo-reesa-morala-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-reesa-morala-a/800/600",
+          "alt": "Gallery \u2014 Reesa Morala, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-reesa-morala-b/800/600",
+          "alt": "Gallery \u2014 Reesa Morala, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-reesa-morala-c/800/600",
+          "alt": "Gallery \u2014 Reesa Morala, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Generational trauma",
       "People pleasing",
@@ -291,13 +775,57 @@
   {
     "name": "Berenice Brito",
     "role": "Transformational Guide / Wellness Coach",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Wellness coach and transformational guide who helps others build healthy relationships, navigate major life shifts, and thrive after divorce.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/1748ff91-d74b-48ca-b671-8e729c5a53ad/gotl-profile-berenicebrito.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/berenice-brito",
+    "linkedinUrl": "https://example.com/in/berenice-brito",
+    "email": "berenice-brito@example.com",
     "openUrl": "https://www.thegirlontheleft.com/berenicebrito",
+    "quote": "Wellness coach and transformational guide who helps others build healthy relationships, navigate major life shifts, and thrive after divorce.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-berenice-brito/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/berenice-brito",
+      "facebook": "https://example.com/social/facebook/berenice-brito",
+      "twitter": "https://example.com/social/twitter/berenice-brito",
+      "tiktok": "https://example.com/social/tiktok/berenice-brito",
+      "linkedin": "https://example.com/social/linkedin/berenice-brito",
+      "youtube": "https://example.com/social/youtube/berenice-brito",
+      "threads": "https://example.com/social/threads/berenice-brito",
+      "pinterest": "https://example.com/social/pinterest/berenice-brito",
+      "bluesky": "https://example.com/social/bluesky/berenice-brito",
+      "mastodon": "https://example.com/social/mastodon/berenice-brito",
+      "github": "https://example.com/social/github/berenice-brito",
+      "snapchat": "https://example.com/social/snapchat/berenice-brito"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/berenice-brito",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/berenice-brito",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-berenice-brito-1",
+          "https://example.com/youtube/watch?v=demo-berenice-brito-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-berenice-brito-r1",
+          "https://example.com/youtube/shorts/demo-berenice-brito-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-berenice-brito-a/800/600",
+          "alt": "Gallery \u2014 Berenice Brito, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-berenice-brito-b/800/600",
+          "alt": "Gallery \u2014 Berenice Brito, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-berenice-brito-c/800/600",
+          "alt": "Gallery \u2014 Berenice Brito, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Growing apart",
       "Divorce",
@@ -318,13 +846,57 @@
   {
     "name": "Tawny Stephens",
     "role": "Director / Actress",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Theater artist, actress, and director who rebuilt her life after loss and now channels that resilience into performance and storytelling.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/24a4fb17-9e86-4918-8d48-f848a0bf976a/gotl-profile-tawnystephens.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/tawny-stephens",
+    "linkedinUrl": "https://example.com/in/tawny-stephens",
+    "email": "tawny-stephens@example.com",
     "openUrl": "https://www.thegirlontheleft.com/tawnystephens",
+    "quote": "Theater artist, actress, and director who rebuilt her life after loss and now channels that resilience into performance and storytelling.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-tawny-stephens/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/tawny-stephens",
+      "facebook": "https://example.com/social/facebook/tawny-stephens",
+      "twitter": "https://example.com/social/twitter/tawny-stephens",
+      "tiktok": "https://example.com/social/tiktok/tawny-stephens",
+      "linkedin": "https://example.com/social/linkedin/tawny-stephens",
+      "youtube": "https://example.com/social/youtube/tawny-stephens",
+      "threads": "https://example.com/social/threads/tawny-stephens",
+      "pinterest": "https://example.com/social/pinterest/tawny-stephens",
+      "bluesky": "https://example.com/social/bluesky/tawny-stephens",
+      "mastodon": "https://example.com/social/mastodon/tawny-stephens",
+      "github": "https://example.com/social/github/tawny-stephens",
+      "snapchat": "https://example.com/social/snapchat/tawny-stephens"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/tawny-stephens",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/tawny-stephens",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-tawny-stephens-1",
+          "https://example.com/youtube/watch?v=demo-tawny-stephens-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-tawny-stephens-r1",
+          "https://example.com/youtube/shorts/demo-tawny-stephens-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tawny-stephens-a/800/600",
+          "alt": "Gallery \u2014 Tawny Stephens, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tawny-stephens-b/800/600",
+          "alt": "Gallery \u2014 Tawny Stephens, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tawny-stephens-c/800/600",
+          "alt": "Gallery \u2014 Tawny Stephens, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Loss of loved one",
       "Alcoholism",
@@ -346,13 +918,57 @@
   {
     "name": "Coach Dr. Wu",
     "role": "Healer & Restorer",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Desert Storm veteran, coach, and medical doctor who supports others healing from trauma and PTSD with compassion and lived experience.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/901a109a-7740-47b8-b77e-ad23430f224d/gotl-profile-florianewu.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/coach-dr-wu",
+    "linkedinUrl": "https://example.com/in/coach-dr-wu",
+    "email": "coach-dr-wu@example.com",
     "openUrl": "https://www.thegirlontheleft.com/coachdrwu",
+    "quote": "Desert Storm veteran, coach, and medical doctor who supports others healing from trauma and PTSD with compassion and lived experience.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-coach-dr-wu/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/coach-dr-wu",
+      "facebook": "https://example.com/social/facebook/coach-dr-wu",
+      "twitter": "https://example.com/social/twitter/coach-dr-wu",
+      "tiktok": "https://example.com/social/tiktok/coach-dr-wu",
+      "linkedin": "https://example.com/social/linkedin/coach-dr-wu",
+      "youtube": "https://example.com/social/youtube/coach-dr-wu",
+      "threads": "https://example.com/social/threads/coach-dr-wu",
+      "pinterest": "https://example.com/social/pinterest/coach-dr-wu",
+      "bluesky": "https://example.com/social/bluesky/coach-dr-wu",
+      "mastodon": "https://example.com/social/mastodon/coach-dr-wu",
+      "github": "https://example.com/social/github/coach-dr-wu",
+      "snapchat": "https://example.com/social/snapchat/coach-dr-wu"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/coach-dr-wu",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/coach-dr-wu",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-coach-dr-wu-1",
+          "https://example.com/youtube/watch?v=demo-coach-dr-wu-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-coach-dr-wu-r1",
+          "https://example.com/youtube/shorts/demo-coach-dr-wu-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-coach-dr-wu-a/800/600",
+          "alt": "Gallery \u2014 Coach Dr. Wu, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-coach-dr-wu-b/800/600",
+          "alt": "Gallery \u2014 Coach Dr. Wu, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-coach-dr-wu-c/800/600",
+          "alt": "Gallery \u2014 Coach Dr. Wu, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Desert Storm war",
       "PTSD",
@@ -373,13 +989,57 @@
   {
     "name": "Brenda Del Granado",
     "role": "Holistic Practitioner / Spinal Energetics",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Certified Spinal Energetics practitioner who helps others release trauma and reconnect with their bodies through holistic healing.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/7728822f-ce40-4e00-8d3b-0b6329bc0fbf/gotl-profile-brendaflores.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/brenda-del-granado",
+    "linkedinUrl": "https://example.com/in/brenda-del-granado",
+    "email": "brenda-del-granado@example.com",
     "openUrl": "https://www.thegirlontheleft.com/brendadelgranado",
+    "quote": "Certified Spinal Energetics practitioner who helps others release trauma and reconnect with their bodies through holistic healing.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-brenda-del-granado/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/brenda-del-granado",
+      "facebook": "https://example.com/social/facebook/brenda-del-granado",
+      "twitter": "https://example.com/social/twitter/brenda-del-granado",
+      "tiktok": "https://example.com/social/tiktok/brenda-del-granado",
+      "linkedin": "https://example.com/social/linkedin/brenda-del-granado",
+      "youtube": "https://example.com/social/youtube/brenda-del-granado",
+      "threads": "https://example.com/social/threads/brenda-del-granado",
+      "pinterest": "https://example.com/social/pinterest/brenda-del-granado",
+      "bluesky": "https://example.com/social/bluesky/brenda-del-granado",
+      "mastodon": "https://example.com/social/mastodon/brenda-del-granado",
+      "github": "https://example.com/social/github/brenda-del-granado",
+      "snapchat": "https://example.com/social/snapchat/brenda-del-granado"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/brenda-del-granado",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/brenda-del-granado",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-brenda-del-granado-1",
+          "https://example.com/youtube/watch?v=demo-brenda-del-granado-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-brenda-del-granado-r1",
+          "https://example.com/youtube/shorts/demo-brenda-del-granado-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-brenda-del-granado-a/800/600",
+          "alt": "Gallery \u2014 Brenda Del Granado, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-brenda-del-granado-b/800/600",
+          "alt": "Gallery \u2014 Brenda Del Granado, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-brenda-del-granado-c/800/600",
+          "alt": "Gallery \u2014 Brenda Del Granado, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Youth support",
       "Validation",
@@ -400,13 +1060,57 @@
   {
     "name": "Diane Jacobs Natoli",
     "role": "Health & Life Coach / Author",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Health and life coach living with MS who helps others pursue purpose, vitality, and self-worth after profound personal loss and reinvention.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/9e16066a-82b6-4d0a-8885-584f032fa049/gotl-profile-dianenatoli.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/diane-jacobs-natoli",
+    "linkedinUrl": "https://example.com/in/diane-jacobs-natoli",
+    "email": "diane-jacobs-natoli@example.com",
     "openUrl": "https://www.thegirlontheleft.com/dianejacobsnatoli",
+    "quote": "Health and life coach living with MS who helps others pursue purpose, vitality, and self-worth after profound personal loss and reinvention.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-diane-jacobs-natoli/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/diane-jacobs-natoli",
+      "facebook": "https://example.com/social/facebook/diane-jacobs-natoli",
+      "twitter": "https://example.com/social/twitter/diane-jacobs-natoli",
+      "tiktok": "https://example.com/social/tiktok/diane-jacobs-natoli",
+      "linkedin": "https://example.com/social/linkedin/diane-jacobs-natoli",
+      "youtube": "https://example.com/social/youtube/diane-jacobs-natoli",
+      "threads": "https://example.com/social/threads/diane-jacobs-natoli",
+      "pinterest": "https://example.com/social/pinterest/diane-jacobs-natoli",
+      "bluesky": "https://example.com/social/bluesky/diane-jacobs-natoli",
+      "mastodon": "https://example.com/social/mastodon/diane-jacobs-natoli",
+      "github": "https://example.com/social/github/diane-jacobs-natoli",
+      "snapchat": "https://example.com/social/snapchat/diane-jacobs-natoli"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/diane-jacobs-natoli",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/diane-jacobs-natoli",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-diane-jacobs-natoli-1",
+          "https://example.com/youtube/watch?v=demo-diane-jacobs-natoli-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-diane-jacobs-natoli-r1",
+          "https://example.com/youtube/shorts/demo-diane-jacobs-natoli-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-diane-jacobs-natoli-a/800/600",
+          "alt": "Gallery \u2014 Diane Jacobs Natoli, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-diane-jacobs-natoli-b/800/600",
+          "alt": "Gallery \u2014 Diane Jacobs Natoli, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-diane-jacobs-natoli-c/800/600",
+          "alt": "Gallery \u2014 Diane Jacobs Natoli, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Multiple sclerosis",
       "Loss of loved ones",
@@ -426,13 +1130,57 @@
   {
     "name": "Tiffany O'Hearn",
     "role": "Energy Healer / Storyteller",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Energy healer and storyteller who blends ancient wisdom, astrology, and personal transformation work to help others reconnect with joy and purpose.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/e78b44aa-ac8e-4f12-b1fc-ee1ccdc9d1e0/gotl-profile-tiffanyohearn.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/tiffany-o-hearn",
+    "linkedinUrl": "https://example.com/in/tiffany-o-hearn",
+    "email": "tiffany-o-hearn@example.com",
     "openUrl": "https://www.thegirlontheleft.com/tiffanyohearn",
+    "quote": "Energy healer and storyteller who blends ancient wisdom, astrology, and personal transformation work to help others reconnect with joy and purpose.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-tiffany-o-hearn/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/tiffany-o-hearn",
+      "facebook": "https://example.com/social/facebook/tiffany-o-hearn",
+      "twitter": "https://example.com/social/twitter/tiffany-o-hearn",
+      "tiktok": "https://example.com/social/tiktok/tiffany-o-hearn",
+      "linkedin": "https://example.com/social/linkedin/tiffany-o-hearn",
+      "youtube": "https://example.com/social/youtube/tiffany-o-hearn",
+      "threads": "https://example.com/social/threads/tiffany-o-hearn",
+      "pinterest": "https://example.com/social/pinterest/tiffany-o-hearn",
+      "bluesky": "https://example.com/social/bluesky/tiffany-o-hearn",
+      "mastodon": "https://example.com/social/mastodon/tiffany-o-hearn",
+      "github": "https://example.com/social/github/tiffany-o-hearn",
+      "snapchat": "https://example.com/social/snapchat/tiffany-o-hearn"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/tiffany-o-hearn",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/tiffany-o-hearn",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-tiffany-o-hearn-1",
+          "https://example.com/youtube/watch?v=demo-tiffany-o-hearn-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-tiffany-o-hearn-r1",
+          "https://example.com/youtube/shorts/demo-tiffany-o-hearn-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tiffany-o-hearn-a/800/600",
+          "alt": "Gallery \u2014 Tiffany O'Hearn, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tiffany-o-hearn-b/800/600",
+          "alt": "Gallery \u2014 Tiffany O'Hearn, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tiffany-o-hearn-c/800/600",
+          "alt": "Gallery \u2014 Tiffany O'Hearn, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Navigating abuse",
       "Energy healing",
@@ -453,13 +1201,57 @@
   {
     "name": "Tania Rizoski",
     "role": "Integrative Professional Life Coach",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Integrative leadership coach and women's retreat creator who helps women unlock their potential, build confidence, and create balance after corporate burnout.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/cb8dd05b-b66a-4c34-90c5-8450459e8319/gotl-profile-tanirizoski.jpg",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/tania-rizoski",
+    "linkedinUrl": "https://example.com/in/tania-rizoski",
+    "email": "tania-rizoski@example.com",
     "openUrl": "https://www.thegirlontheleft.com/taniarizoski",
+    "quote": "Integrative leadership coach and women's retreat creator who helps women unlock their potential, build confidence, and create balance after corporate burnout.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-tania-rizoski/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/tania-rizoski",
+      "facebook": "https://example.com/social/facebook/tania-rizoski",
+      "twitter": "https://example.com/social/twitter/tania-rizoski",
+      "tiktok": "https://example.com/social/tiktok/tania-rizoski",
+      "linkedin": "https://example.com/social/linkedin/tania-rizoski",
+      "youtube": "https://example.com/social/youtube/tania-rizoski",
+      "threads": "https://example.com/social/threads/tania-rizoski",
+      "pinterest": "https://example.com/social/pinterest/tania-rizoski",
+      "bluesky": "https://example.com/social/bluesky/tania-rizoski",
+      "mastodon": "https://example.com/social/mastodon/tania-rizoski",
+      "github": "https://example.com/social/github/tania-rizoski",
+      "snapchat": "https://example.com/social/snapchat/tania-rizoski"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/tania-rizoski",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/tania-rizoski",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-tania-rizoski-1",
+          "https://example.com/youtube/watch?v=demo-tania-rizoski-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-tania-rizoski-r1",
+          "https://example.com/youtube/shorts/demo-tania-rizoski-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tania-rizoski-a/800/600",
+          "alt": "Gallery \u2014 Tania Rizoski, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tania-rizoski-b/800/600",
+          "alt": "Gallery \u2014 Tania Rizoski, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-tania-rizoski-c/800/600",
+          "alt": "Gallery \u2014 Tania Rizoski, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Cultural expectations",
       "Corporate burnout",
@@ -478,13 +1270,57 @@
   {
     "name": "Dr. Michelle Marie Lappin",
     "role": "Financial Strategist",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Financial strategist, coach, and podcast host whose story centers on overcoming debt, navigating inheritance and financial turmoil, and building long-term stability. This summary was reconstructed from public episode and profile metadata because her full GOTL bio page did not load.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/07b3500f-1ef9-4a49-8b90-44cd94b716f3/gotl-profile-michellelappin.jpg",
-    "bookUrl": null,
+    "bookUrl": "https://example.com/book/dr-michelle-marie-lappin",
     "linkedinUrl": "https://www.linkedin.com/in/dr-michelle-marie-lappin-31a31437",
-    "email": null,
-    "openUrl": null,
+    "email": "dr-michelle-marie-lappin@example.com",
+    "openUrl": "https://example.com/gotl-profile/dr-michelle-marie-lappin",
+    "quote": "Financial strategist, coach, and podcast host whose story centers on overcoming debt, navigating inheritance and financial turmoil, and building long-term st...",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-dr-michelle-marie-lappin/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/dr-michelle-marie-lappin",
+      "facebook": "https://example.com/social/facebook/dr-michelle-marie-lappin",
+      "twitter": "https://example.com/social/twitter/dr-michelle-marie-lappin",
+      "tiktok": "https://example.com/social/tiktok/dr-michelle-marie-lappin",
+      "linkedin": "https://www.linkedin.com/in/dr-michelle-marie-lappin-31a31437",
+      "youtube": "https://example.com/social/youtube/dr-michelle-marie-lappin",
+      "threads": "https://example.com/social/threads/dr-michelle-marie-lappin",
+      "pinterest": "https://example.com/social/pinterest/dr-michelle-marie-lappin",
+      "bluesky": "https://example.com/social/bluesky/dr-michelle-marie-lappin",
+      "mastodon": "https://example.com/social/mastodon/dr-michelle-marie-lappin",
+      "github": "https://example.com/social/github/dr-michelle-marie-lappin",
+      "snapchat": "https://example.com/social/snapchat/dr-michelle-marie-lappin"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/dr-michelle-marie-lappin",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/dr-michelle-marie-lappin",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-dr-michelle-marie-lappin-1",
+          "https://example.com/youtube/watch?v=demo-dr-michelle-marie-lappin-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-dr-michelle-marie-lappin-r1",
+          "https://example.com/youtube/shorts/demo-dr-michelle-marie-lappin-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-dr-michelle-marie-lappin-a/800/600",
+          "alt": "Gallery \u2014 Dr. Michelle Marie Lappin, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-dr-michelle-marie-lappin-b/800/600",
+          "alt": "Gallery \u2014 Dr. Michelle Marie Lappin, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-dr-michelle-marie-lappin-c/800/600",
+          "alt": "Gallery \u2014 Dr. Michelle Marie Lappin, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Debt recovery",
       "Unexpected inheritance",
@@ -504,13 +1340,57 @@
   {
     "name": "Lizzy Morris",
     "role": "Mother / Birth Rights Advocate",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Plus-size mom, birth rights advocate, and activist who shares her healing birth journey to support other women reclaiming agency in motherhood.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/1783920a-ae08-4c23-8c39-420578a24ed7/gotl-profile-lizzymorris.png",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/lizzy-morris",
+    "linkedinUrl": "https://example.com/in/lizzy-morris",
+    "email": "lizzy-morris@example.com",
     "openUrl": "https://www.thegirlontheleft.com/lizzymorris",
+    "quote": "Plus-size mom, birth rights advocate, and activist who shares her healing birth journey to support other women reclaiming agency in motherhood.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-lizzy-morris/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/lizzy-morris",
+      "facebook": "https://example.com/social/facebook/lizzy-morris",
+      "twitter": "https://example.com/social/twitter/lizzy-morris",
+      "tiktok": "https://example.com/social/tiktok/lizzy-morris",
+      "linkedin": "https://example.com/social/linkedin/lizzy-morris",
+      "youtube": "https://example.com/social/youtube/lizzy-morris",
+      "threads": "https://example.com/social/threads/lizzy-morris",
+      "pinterest": "https://example.com/social/pinterest/lizzy-morris",
+      "bluesky": "https://example.com/social/bluesky/lizzy-morris",
+      "mastodon": "https://example.com/social/mastodon/lizzy-morris",
+      "github": "https://example.com/social/github/lizzy-morris",
+      "snapchat": "https://example.com/social/snapchat/lizzy-morris"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/lizzy-morris",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/lizzy-morris",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-lizzy-morris-1",
+          "https://example.com/youtube/watch?v=demo-lizzy-morris-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-lizzy-morris-r1",
+          "https://example.com/youtube/shorts/demo-lizzy-morris-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-lizzy-morris-a/800/600",
+          "alt": "Gallery \u2014 Lizzy Morris, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-lizzy-morris-b/800/600",
+          "alt": "Gallery \u2014 Lizzy Morris, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-lizzy-morris-c/800/600",
+          "alt": "Gallery \u2014 Lizzy Morris, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Motherhood",
       "Body positivity",
@@ -531,13 +1411,57 @@
   {
     "name": "Kimeiko Rae Vision",
     "role": "Angel Warrior / Live Event Emcee",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Speaker and live event emcee who uses storytelling, mythology, and art to help people move through real-world challenges and transformation.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/c120e955-9b12-4fcd-b424-36f8e6a35ef8/gotl-profile-kimeikoraevision.png",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/kimeiko-rae-vision",
+    "linkedinUrl": "https://example.com/in/kimeiko-rae-vision",
+    "email": "kimeiko-rae-vision@example.com",
     "openUrl": "https://www.thegirlontheleft.com/kimeikoraevision",
+    "quote": "Speaker and live event emcee who uses storytelling, mythology, and art to help people move through real-world challenges and transformation.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-kimeiko-rae-vision/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/kimeiko-rae-vision",
+      "facebook": "https://example.com/social/facebook/kimeiko-rae-vision",
+      "twitter": "https://example.com/social/twitter/kimeiko-rae-vision",
+      "tiktok": "https://example.com/social/tiktok/kimeiko-rae-vision",
+      "linkedin": "https://example.com/social/linkedin/kimeiko-rae-vision",
+      "youtube": "https://example.com/social/youtube/kimeiko-rae-vision",
+      "threads": "https://example.com/social/threads/kimeiko-rae-vision",
+      "pinterest": "https://example.com/social/pinterest/kimeiko-rae-vision",
+      "bluesky": "https://example.com/social/bluesky/kimeiko-rae-vision",
+      "mastodon": "https://example.com/social/mastodon/kimeiko-rae-vision",
+      "github": "https://example.com/social/github/kimeiko-rae-vision",
+      "snapchat": "https://example.com/social/snapchat/kimeiko-rae-vision"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/kimeiko-rae-vision",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/kimeiko-rae-vision",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-kimeiko-rae-vision-1",
+          "https://example.com/youtube/watch?v=demo-kimeiko-rae-vision-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-kimeiko-rae-vision-r1",
+          "https://example.com/youtube/shorts/demo-kimeiko-rae-vision-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-kimeiko-rae-vision-a/800/600",
+          "alt": "Gallery \u2014 Kimeiko Rae Vision, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-kimeiko-rae-vision-b/800/600",
+          "alt": "Gallery \u2014 Kimeiko Rae Vision, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-kimeiko-rae-vision-c/800/600",
+          "alt": "Gallery \u2014 Kimeiko Rae Vision, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Domestic violence",
       "Northern lights",
@@ -558,13 +1482,57 @@
   {
     "name": "Amanda Chatzikonstantinou",
     "role": "Teen Empowerment Coach",
-    "location": null,
+    "location": "Demo City, ST",
     "bio": "Coach focused on helping teens and young adults build confidence, resilience, and purpose through practical life skills and stress-management tools.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/8d530469-05ae-4813-bfd1-38bee109e208/gotl-profile-amandachatzikonstantinou.png",
-    "bookUrl": null,
-    "linkedinUrl": null,
-    "email": null,
+    "bookUrl": "https://example.com/book/amanda-chatzikonstantinou",
+    "linkedinUrl": "https://example.com/in/amanda-chatzikonstantinou",
+    "email": "amanda-chatzikonstantinou@example.com",
     "openUrl": "https://www.thegirlontheleft.com/amandachatzikonstantinou",
+    "quote": "Coach focused on helping teens and young adults build confidence, resilience, and purpose through practical life skills and stress-management tools.",
+    "heroImage": "https://picsum.photos/seed/gotl-hero-amanda-chatzikonstantinou/1200/480",
+    "social": {
+      "instagram": "https://example.com/social/instagram/amanda-chatzikonstantinou",
+      "facebook": "https://example.com/social/facebook/amanda-chatzikonstantinou",
+      "twitter": "https://example.com/social/twitter/amanda-chatzikonstantinou",
+      "tiktok": "https://example.com/social/tiktok/amanda-chatzikonstantinou",
+      "linkedin": "https://example.com/social/linkedin/amanda-chatzikonstantinou",
+      "youtube": "https://example.com/social/youtube/amanda-chatzikonstantinou",
+      "threads": "https://example.com/social/threads/amanda-chatzikonstantinou",
+      "pinterest": "https://example.com/social/pinterest/amanda-chatzikonstantinou",
+      "bluesky": "https://example.com/social/bluesky/amanda-chatzikonstantinou",
+      "mastodon": "https://example.com/social/mastodon/amanda-chatzikonstantinou",
+      "github": "https://example.com/social/github/amanda-chatzikonstantinou",
+      "snapchat": "https://example.com/social/snapchat/amanda-chatzikonstantinou"
+    },
+    "media": {
+      "spotifyUrl": "https://example.com/spotify/show/amanda-chatzikonstantinou",
+      "youtube": {
+        "channelUrl": "https://example.com/youtube/channel/amanda-chatzikonstantinou",
+        "videoUrls": [
+          "https://example.com/youtube/watch?v=demo-amanda-chatzikonstantinou-1",
+          "https://example.com/youtube/watch?v=demo-amanda-chatzikonstantinou-2"
+        ],
+        "reelUrls": [
+          "https://example.com/youtube/shorts/demo-amanda-chatzikonstantinou-r1",
+          "https://example.com/youtube/shorts/demo-amanda-chatzikonstantinou-r2"
+        ]
+      },
+      "gallery": [
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-amanda-chatzikonstantinou-a/800/600",
+          "alt": "Gallery \u2014 Amanda Chatzikonstantinou, image 1"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-amanda-chatzikonstantinou-b/800/600",
+          "alt": "Gallery \u2014 Amanda Chatzikonstantinou, image 2"
+        },
+        {
+          "url": "https://picsum.photos/seed/gotl-gal-amanda-chatzikonstantinou-c/800/600",
+          "alt": "Gallery \u2014 Amanda Chatzikonstantinou, image 3"
+        }
+      ]
+    },
     "focusTags": [
       "Anxiety",
       "Mental health",

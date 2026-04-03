@@ -112,6 +112,27 @@
       color: var(--muted);
       margin: 0.75rem 0 0.25rem;
     }
+    .section-hint {
+      font-size: 0.72rem;
+      font-weight: 500;
+      text-transform: none;
+      letter-spacing: 0;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+    .section-title {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text);
+      margin: 1rem 0 0.15rem;
+      padding-top: 0.5rem;
+      border-top: 1px dashed var(--border);
+    }
+    .section-title:first-child {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0.25rem;
+    }
     input[type="text"],
     textarea {
       width: 100%;
@@ -122,6 +143,7 @@
       background: #faf9f7;
     }
     textarea { min-height: 4.5rem; resize: vertical; }
+    textarea.tall { min-height: 6rem; }
     .row-remove {
       margin-top: 1rem;
       display: flex;
@@ -161,17 +183,97 @@
 
   <script>
 (function () {
+  const SOCIAL_KEYS = [
+    "instagram", "facebook", "twitter", "tiktok", "linkedin", "youtube",
+    "threads", "pinterest", "bluesky", "mastodon", "github", "snapchat",
+  ];
+
   const FIELDS = [
-    "name", "role", "location", "bio", "image",
+    "name", "role", "location", "bio", "quote", "image", "heroImage",
     "bookUrl", "linkedinUrl", "email", "openUrl",
   ];
   const ARRAY_FIELDS = ["focusTags", "details", "footerTags"];
+
+  function emptySocial() {
+    const o = {};
+    SOCIAL_KEYS.forEach((k) => { o[k] = ""; });
+    return o;
+  }
+
+  function emptyMedia() {
+    return {
+      spotifyUrl: "",
+      youtube: { channelUrl: "", videoUrls: [], reelUrls: [] },
+      gallery: [],
+    };
+  }
 
   function emptyExpert() {
     const o = {};
     FIELDS.forEach((k) => { o[k] = ""; });
     ARRAY_FIELDS.forEach((k) => { o[k] = []; });
+    o.social = emptySocial();
+    o.media = emptyMedia();
     return o;
+  }
+
+  function parseLines(text) {
+    return String(text ?? "")
+      .split(/\n/)
+      .map((s) => s.trim())
+      .filter(Boolean);
+  }
+
+  function linesFromArray(arr) {
+    return (Array.isArray(arr) ? arr : []).join("\n");
+  }
+
+  function normalizeUrlList(v) {
+    if (Array.isArray(v)) {
+      return v.map((x) => String(x ?? "").trim()).filter(Boolean);
+    }
+    if (v != null && typeof v === "string") {
+      return parseLines(v);
+    }
+    return [];
+  }
+
+  function normalizeGallery(raw) {
+    if (!Array.isArray(raw)) return [];
+    const out = [];
+    for (const item of raw) {
+      if (item == null) continue;
+      if (typeof item === "string") {
+        const u = item.trim();
+        if (u) out.push({ url: u, alt: "" });
+      } else if (typeof item === "object" && !Array.isArray(item)) {
+        const url = String(item.url ?? "").trim();
+        if (!url) continue;
+        out.push({
+          url,
+          alt: item.alt != null ? String(item.alt) : "",
+        });
+      }
+    }
+    return out;
+  }
+
+  function normalizeMedia(raw) {
+    const m = emptyMedia();
+    if (!raw || typeof raw !== "object" || Array.isArray(raw)) return m;
+    m.spotifyUrl = raw.spotifyUrl != null && typeof raw.spotifyUrl === "string"
+      ? raw.spotifyUrl
+      : String(raw.spotifyUrl ?? "");
+    const yt = raw.youtube;
+    if (yt && typeof yt === "object" && !Array.isArray(yt)) {
+      m.youtube.channelUrl = yt.channelUrl != null && typeof yt.channelUrl === "string"
+        ? yt.channelUrl
+        : String(yt.channelUrl ?? "");
+      m.youtube.videoUrls = normalizeUrlList(yt.videoUrls);
+      m.youtube.reelUrls = normalizeUrlList(yt.reelUrls);
+    }
+    m.gallery = normalizeGallery(raw.gallery);
+    return m;
   }
 
   function normalizeExpert(raw) {
@@ -190,7 +292,38 @@
         o[k] = [];
       }
     });
+    const soc = raw.social;
+    if (soc && typeof soc === "object" && !Array.isArray(soc)) {
+      SOCIAL_KEYS.forEach((k) => {
+        const v = soc[k];
+        o.social[k] = v != null && typeof v === "string" ? v : String(v ?? "");
+      });
+    }
+    o.media = normalizeMedia(raw.media);
     return o;
+  }
+
+  function galleryLines(gallery) {
+    return (Array.isArray(gallery) ? gallery : [])
+      .map((g) => {
+        const u = g.url || "";
+        const a = (g.alt || "").trim();
+        return a ? u + "|" + a : u;
+      })
+      .join("\n");
+  }
+
+  function parseGalleryLines(text) {
+    return parseLines(text).map((line) => {
+      const pipe = line.indexOf("|");
+      if (pipe >= 0) {
+        return {
+          url: line.slice(0, pipe).trim(),
+          alt: line.slice(pipe + 1).trim(),
+        };
+      }
+      return { url: line.trim(), alt: "" };
+    }).filter((g) => g.url);
   }
 
   function validateExperts(data) {
@@ -204,15 +337,58 @@
     return null;
   }
 
-  function parseLines(text) {
-    return String(text ?? "")
-      .split(/\n/)
-      .map((s) => s.trim())
-      .filter(Boolean);
+  function serializeExperts() {
+    return experts.map((e) => {
+      const mediaYoutube = e.media && e.media.youtube;
+      return {
+        name: e.name ?? "",
+        role: e.role ?? "",
+        location: e.location ?? "",
+        bio: e.bio ?? "",
+        image: e.image ?? "",
+        bookUrl: e.bookUrl ?? "",
+        linkedinUrl: e.linkedinUrl ?? "",
+        email: e.email ?? "",
+        openUrl: e.openUrl ?? "",
+        quote: e.quote ?? "",
+        heroImage: e.heroImage ?? "",
+        social: (function () {
+          const s = {};
+          SOCIAL_KEYS.forEach((k) => {
+            s[k] = (e.social && e.social[k] != null) ? String(e.social[k]) : "";
+          });
+          return s;
+        })(),
+        media: {
+          spotifyUrl: e.media && e.media.spotifyUrl != null ? String(e.media.spotifyUrl) : "",
+          youtube: {
+            channelUrl: mediaYoutube && mediaYoutube.channelUrl != null
+              ? String(mediaYoutube.channelUrl) : "",
+            videoUrls: Array.isArray(mediaYoutube && mediaYoutube.videoUrls)
+              ? [...mediaYoutube.videoUrls]
+              : [],
+            reelUrls: Array.isArray(mediaYoutube && mediaYoutube.reelUrls)
+              ? [...mediaYoutube.reelUrls]
+              : [],
+          },
+          gallery: Array.isArray(e.media && e.media.gallery)
+            ? e.media.gallery
+              .map((g) => ({
+                url: String(g.url ?? ""),
+                alt: g.alt != null ? String(g.alt) : "",
+              }))
+              .filter((g) => g.url)
+            : [],
+        },
+        focusTags: Array.isArray(e.focusTags) ? [...e.focusTags] : [],
+        details: Array.isArray(e.details) ? [...e.details] : [],
+        footerTags: Array.isArray(e.footerTags) ? [...e.footerTags] : [],
+      };
+    });
   }
 
-  function linesFromArray(arr) {
-    return (Array.isArray(arr) ? arr : []).join("\n");
+  function exportJsonString() {
+    return JSON.stringify(serializeExperts(), null, 2) + "\n";
   }
 
   let experts = [];
@@ -223,21 +399,6 @@
   function setToolbarMsg(text, kind) {
     toolbarMsg.textContent = text || "";
     toolbarMsg.className = "toolbar-msg" + (kind ? " " + kind : "");
-  }
-
-  function serializeExperts() {
-    return experts.map((e) => {
-      const o = {};
-      FIELDS.forEach((k) => { o[k] = e[k] ?? ""; });
-      ARRAY_FIELDS.forEach((k) => {
-        o[k] = Array.isArray(e[k]) ? [...e[k]] : [];
-      });
-      return o;
-    });
-  }
-
-  function exportJsonString() {
-    return JSON.stringify(serializeExperts(), null, 2) + "\n";
   }
 
   function render() {
@@ -262,6 +423,14 @@
 
       const body = document.createElement("div");
       body.className = "card-body";
+
+      function syncSummary() {
+        const cur = experts[index];
+        const t = (cur.name && cur.name.trim()) || "(Untitled)";
+        const s = (cur.role && cur.role.trim()) ? " — " + cur.role : "";
+        summary.textContent = "";
+        summary.appendChild(document.createTextNode(t + s));
+      }
 
       function bindText(field, multiline) {
         const lab = document.createElement("label");
@@ -290,12 +459,11 @@
         body.appendChild(ta);
       }
 
-      function syncSummary() {
-        const cur = experts[index];
-        const t = (cur.name && cur.name.trim()) || "(Untitled)";
-        const s = (cur.role && cur.role.trim()) ? " — " + cur.role : "";
-        summary.textContent = "";
-        summary.appendChild(document.createTextNode(t + s));
+      function sectionTitle(text) {
+        const h = document.createElement("div");
+        h.className = "section-title";
+        h.textContent = text;
+        body.appendChild(h);
       }
 
       bindText("name", false);
@@ -304,12 +472,110 @@
       bindText("location", false);
       bindArray("details");
       bindText("bio", true);
+
+      sectionTitle("Quote & images");
+      bindText("quote", true);
       bindArray("footerTags");
       bindText("image", false);
+      const heroLab = document.createElement("label");
+      heroLab.textContent = "heroImage";
+      body.appendChild(heroLab);
+      const heroHint = document.createElement("div");
+      heroHint.className = "section-hint";
+      heroHint.textContent = "Larger header image; profile card still uses image.";
+      body.appendChild(heroHint);
+      const heroIn = document.createElement("input");
+      heroIn.type = "text";
+      heroIn.value = e.heroImage ?? "";
+      heroIn.addEventListener("input", () => {
+        experts[index].heroImage = heroIn.value;
+      });
+      body.appendChild(heroIn);
+
+      sectionTitle("Links");
       bindText("bookUrl", false);
       bindText("linkedinUrl", false);
       bindText("email", false);
       bindText("openUrl", false);
+
+      sectionTitle("social — optional URLs");
+      const socHint = document.createElement("div");
+      socHint.className = "section-hint";
+      socHint.textContent = "Leave blank when unused. Prefer social.linkedin when syncing with linkedinUrl.";
+      body.appendChild(socHint);
+      SOCIAL_KEYS.forEach((platform) => {
+        if (!experts[index].social) experts[index].social = emptySocial();
+        const lab = document.createElement("label");
+        lab.textContent = "social." + platform;
+        body.appendChild(lab);
+        const inp = document.createElement("input");
+        inp.type = "text";
+        inp.value = experts[index].social[platform] ?? "";
+        inp.addEventListener("input", () => {
+          experts[index].social[platform] = inp.value;
+        });
+        body.appendChild(inp);
+      });
+
+      sectionTitle("media");
+      if (!experts[index].media) experts[index].media = emptyMedia();
+      const m = experts[index].media;
+      if (!m.youtube || typeof m.youtube !== "object") {
+        m.youtube = { channelUrl: "", videoUrls: [], reelUrls: [] };
+      }
+
+      let lab = document.createElement("label");
+      lab.textContent = "media.spotifyUrl";
+      body.appendChild(lab);
+      const spotInp = document.createElement("input");
+      spotInp.type = "text";
+      spotInp.value = m.spotifyUrl ?? "";
+      spotInp.addEventListener("input", () => {
+        experts[index].media.spotifyUrl = spotInp.value;
+      });
+      body.appendChild(spotInp);
+
+      lab = document.createElement("label");
+      lab.textContent = "media.youtube.channelUrl";
+      body.appendChild(lab);
+      const chIn = document.createElement("input");
+      chIn.type = "text";
+      chIn.value = m.youtube.channelUrl ?? "";
+      chIn.addEventListener("input", () => {
+        experts[index].media.youtube.channelUrl = chIn.value;
+      });
+      body.appendChild(chIn);
+
+      lab = document.createElement("label");
+      lab.textContent = "media.youtube.videoUrls (one URL per line)";
+      body.appendChild(lab);
+      const vidTa = document.createElement("textarea");
+      vidTa.value = linesFromArray(m.youtube.videoUrls);
+      vidTa.addEventListener("input", () => {
+        experts[index].media.youtube.videoUrls = parseLines(vidTa.value);
+      });
+      body.appendChild(vidTa);
+
+      lab = document.createElement("label");
+      lab.textContent = "media.youtube.reelUrls (one URL per line)";
+      body.appendChild(lab);
+      const reelTa = document.createElement("textarea");
+      reelTa.value = linesFromArray(m.youtube.reelUrls);
+      reelTa.addEventListener("input", () => {
+        experts[index].media.youtube.reelUrls = parseLines(reelTa.value);
+      });
+      body.appendChild(reelTa);
+
+      lab = document.createElement("label");
+      lab.textContent = "media.gallery (one per line: url or url|alt)";
+      body.appendChild(lab);
+      const galTa = document.createElement("textarea");
+      galTa.className = "tall";
+      galTa.value = galleryLines(m.gallery);
+      galTa.addEventListener("input", () => {
+        experts[index].media.gallery = parseGalleryLines(galTa.value);
+      });
+      body.appendChild(galTa);
 
       const rowRm = document.createElement("div");
       rowRm.className = "row-remove";
