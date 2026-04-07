@@ -2,56 +2,37 @@
   {
     "name": "Megan Dirks",
     "role": "Brand Strategist / Creative Entrepreneur",
-    "location": "Demo City, ST",
+    "location": "Halifax, Nova Scotia, Canada",
     "bio": "Brand coach and creator of The Girl on the Left who collaborates with women to share raw, transformative stories about growth, self-trust, and empowerment.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/4e853eb9-7257-4062-923a-c7fb4e7a7924/gotl-profile-megandirks.jpg",
     "bookUrl": "https://example.com/book/megan-dirks",
     "linkedinUrl": "https://example.com/in/megan-dirks",
     "email": "megan-dirks@example.com",
     "openUrl": "https://www.thegirlontheleft.com/megandirks",
-    "quote": "Brand coach and creator of The Girl on the Left who collaborates with women to share raw, transformative stories about growth, self-trust, and empowerment.",
+    "quote": "I had a lot of self-assurance from an early age because I had to dig so much. I know I can make shit happen now because I've proven it 20 million times in this process. Let's hunt around. Let's figure out a thing. Okay, let's do that thing. Every time just built more confidence in my decision making and self-trust.",
     "heroImage": "https://picsum.photos/seed/gotl-hero-megan-dirks/1200/480",
     "social": {
-      "instagram": "https://example.com/social/instagram/megan-dirks",
-      "facebook": "https://example.com/social/facebook/megan-dirks",
-      "twitter": "https://example.com/social/twitter/megan-dirks",
-      "tiktok": "https://example.com/social/tiktok/megan-dirks",
-      "linkedin": "https://example.com/social/linkedin/megan-dirks",
-      "youtube": "https://example.com/social/youtube/megan-dirks",
-      "threads": "https://example.com/social/threads/megan-dirks",
-      "pinterest": "https://example.com/social/pinterest/megan-dirks",
-      "bluesky": "https://example.com/social/bluesky/megan-dirks",
-      "mastodon": "https://example.com/social/mastodon/megan-dirks",
-      "github": "https://example.com/social/github/megan-dirks",
-      "snapchat": "https://example.com/social/snapchat/megan-dirks"
+      "instagram": "https://www.instagram.com/brandosaurusmeg",
+      "facebook": "https://www.facebook.com/brandosaurusmeg",
+      "linkedin": "https://www.linkedin.com/in/megandirks/",
+      "snapchat": "https://example.com/social/snapchat/megan-dirks",
+      "website": "https://www.brandosaurusmeg.com/"
     },
     "media": {
-      "spotifyUrl": "https://example.com/spotify/show/megan-dirks",
+      "spotifyUrl": "https://open.spotify.com/episode/1uy6T5LGdZGg6FztkykBGf?si=J7PxJho0SXyLY-fgnJM17w",
       "youtube": {
-        "channelUrl": "https://example.com/youtube/channel/megan-dirks",
+        "channelUrl": "https://www.youtube.com/@girlontheleftco",
         "videoUrls": [
-          "https://example.com/youtube/watch?v=demo-megan-dirks-1",
-          "https://example.com/youtube/watch?v=demo-megan-dirks-2"
+          "https://youtu.be/NxujDkqWap8"
         ],
         "reelUrls": [
-          "https://example.com/youtube/shorts/demo-megan-dirks-r1",
-          "https://example.com/youtube/shorts/demo-megan-dirks-r2"
+          "https://www.youtube.com/shorts/NPnxpdjrAJY?feature=share",
+          "https://www.youtube.com/shorts/9NNN70R26X0?feature=share",
+          "https://youtu.be/bBg9gYwU3rA",
+          "https://youtu.be/SNJiEX_a7CE",
+          "https://www.youtube.com/shorts/AFvsrQJDe-I?feature=share"
         ]
-      },
-      "gallery": [
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-megan-dirks-a/800/600",
-          "alt": "Gallery \u2014 Megan Dirks, image 1"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-megan-dirks-b/800/600",
-          "alt": "Gallery \u2014 Megan Dirks, image 2"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-megan-dirks-c/800/600",
-          "alt": "Gallery \u2014 Megan Dirks, image 3"
-        }
-      ]
+      }
     },
     "focusTags": [
       "Video game addiction",
