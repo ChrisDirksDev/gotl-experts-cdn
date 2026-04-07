@@ -7,7 +7,10 @@
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/4e853eb9-7257-4062-923a-c7fb4e7a7924/gotl-profile-megandirks.jpg",
     "email": "megan-dirks@example.com",
     "openUrl": "https://www.thegirlontheleft.com/megandirks",
-    "quote": "I had a lot of self-assurance from an early age because I had to dig so much. I know I can make shit happen now because I've proven it 20 million times in this process. Let's hunt around. Let's figure out a thing. Okay, let's do that thing. Every time just built more confidence in my decision making and self-trust.",
+    "quote": {
+      "highlight": "self-assurance",
+      "paragraph": "I had a lot of self-assurance from an early age because I had to dig so much. I know I can make shit happen now because I've proven it 20 million times in this process. Let's hunt around. Let's figure out a thing. Okay, let's do that thing. Every time just built more confidence in my decision making and self-trust.",
+    },
     "heroImage": "https://picsum.photos/seed/gotl-hero-megan-dirks/1200/480",
     "social": {
       "instagram": "https://www.instagram.com/brandosaurusmeg",
@@ -50,56 +53,31 @@
   {
     "name": "Mary Bouras",
     "role": "Confidence & Etiquette Coach",
-    "location": "Demo City, ST",
+    "location": "Saint Louis, Missouri, USA",
     "bio": "Confidence and etiquette coach, military spouse, and mother of twins who helps others cultivate poise, presence, and authentic self-belief.",
     "image": "https://images.squarespace-cdn.com/content/v1/6715e6595d056005d58a975c/179e0ade-92ea-40f9-984e-24d789e29f98/gotl-profile-marybouras.jpg",
-    "bookUrl": "https://example.com/book/mary-bouras",
-    "linkedinUrl": "https://example.com/in/mary-bouras",
     "email": "mary-bouras@example.com",
     "openUrl": "https://www.thegirlontheleft.com/marybouras",
     "quote": "Confidence and etiquette coach, military spouse, and mother of twins who helps others cultivate poise, presence, and authentic self-belief.",
     "heroImage": "https://picsum.photos/seed/gotl-hero-mary-bouras/1200/480",
     "social": {
-      "instagram": "https://example.com/social/instagram/mary-bouras",
-      "facebook": "https://example.com/social/facebook/mary-bouras",
-      "twitter": "https://example.com/social/twitter/mary-bouras",
-      "tiktok": "https://example.com/social/tiktok/mary-bouras",
-      "linkedin": "https://example.com/social/linkedin/mary-bouras",
-      "youtube": "https://example.com/social/youtube/mary-bouras",
-      "threads": "https://example.com/social/threads/mary-bouras",
-      "pinterest": "https://example.com/social/pinterest/mary-bouras",
-      "bluesky": "https://example.com/social/bluesky/mary-bouras",
-      "mastodon": "https://example.com/social/mastodon/mary-bouras",
-      "github": "https://example.com/social/github/mary-bouras",
-      "snapchat": "https://example.com/social/snapchat/mary-bouras"
+      "instagram": "https://www.instagram.com/marybouras_coaching",
+      "facebook": "https://www.facebook.com/mary.bourascoaching",
+      "linkedin": "https://www.linkedin.com/in/marynbouras",
+      "youtube": "http://youtube.com/@marybourascoaching",
+      "website": "https://www.marybourascoaching.com/"
     },
     "media": {
-      "spotifyUrl": "https://example.com/spotify/show/mary-bouras",
+      "spotifyUrl": "https://open.spotify.com/episode/6ghxhZScBlNh5uUUe8Q7PB?si=jmhIgvY7Svmpqg8CVzoLag",
       "youtube": {
-        "channelUrl": "https://example.com/youtube/channel/mary-bouras",
-        "videoUrls": [
-          "https://example.com/youtube/watch?v=demo-mary-bouras-1",
-          "https://example.com/youtube/watch?v=demo-mary-bouras-2"
-        ],
         "reelUrls": [
-          "https://example.com/youtube/shorts/demo-mary-bouras-r1",
-          "https://example.com/youtube/shorts/demo-mary-bouras-r2"
+          "https://youtu.be/YeynAVBT9No",
+          "https://youtu.be/BkG-5o5kI7A",
+          "https://youtu.be/6kvPFsYShGM",
+          "https://youtu.be/WLbdrFRh3uQ",
+          "https://youtu.be/iPlw_CqYt5U"
         ]
-      },
-      "gallery": [
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-mary-bouras-a/800/600",
-          "alt": "Gallery \u2014 Mary Bouras, image 1"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-mary-bouras-b/800/600",
-          "alt": "Gallery \u2014 Mary Bouras, image 2"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-mary-bouras-c/800/600",
-          "alt": "Gallery \u2014 Mary Bouras, image 3"
-        }
-      ]
+      }
     },
     "focusTags": [
       "Infertility",
@@ -131,46 +109,23 @@
     "quote": "Self-love advocate and host of Talks with Tayler who uses her lived experience with a cleft lip and palate to champion confidence, kindness, and anti-bullying.",
     "heroImage": "https://picsum.photos/seed/gotl-hero-tayler-mccollum/1200/480",
     "social": {
-      "instagram": "https://example.com/social/instagram/tayler-mccollum",
-      "facebook": "https://example.com/social/facebook/tayler-mccollum",
-      "twitter": "https://example.com/social/twitter/tayler-mccollum",
-      "tiktok": "https://example.com/social/tiktok/tayler-mccollum",
-      "linkedin": "https://example.com/social/linkedin/tayler-mccollum",
-      "youtube": "https://example.com/social/youtube/tayler-mccollum",
-      "threads": "https://example.com/social/threads/tayler-mccollum",
-      "pinterest": "https://example.com/social/pinterest/tayler-mccollum",
-      "bluesky": "https://example.com/social/bluesky/tayler-mccollum",
-      "mastodon": "https://example.com/social/mastodon/tayler-mccollum",
-      "github": "https://example.com/social/github/tayler-mccollum",
-      "snapchat": "https://example.com/social/snapchat/tayler-mccollum"
+      "instagram": "https://www.instagram.com/taylermccollum2015/",
+      "facebook": "https://www.facebook.com/tayler.mccollum.7?mibextid=LQQJ4d",
+      "tiktok": "https://www.tiktok.com/@taylerjademccollu?is_from_webapp=1&sender_device=pc",
+      "linkedin": "https://www.linkedin.com/in/tayler-mccollum-373880133/",
+      "spotify": "https://open.spotify.com/user/taylermccollum12?si=eOJSVVaCRc2YnB8WHxt8yQ"
     },
     "media": {
-      "spotifyUrl": "https://example.com/spotify/show/tayler-mccollum",
+      "spotifyUrl": "https://open.spotify.com/episode/31TXT85G6j4LA2tXx3ykx8?si=EnFbQ8OTS3ObIIL0Ob88vQ",
       "youtube": {
-        "channelUrl": "https://example.com/youtube/channel/tayler-mccollum",
-        "videoUrls": [
-          "https://example.com/youtube/watch?v=demo-tayler-mccollum-1",
-          "https://example.com/youtube/watch?v=demo-tayler-mccollum-2"
-        ],
         "reelUrls": [
-          "https://example.com/youtube/shorts/demo-tayler-mccollum-r1",
-          "https://example.com/youtube/shorts/demo-tayler-mccollum-r2"
+          "https://youtu.be/RZFpJhg3ZKs",
+          "https://youtu.be/VxBjRSXRHRQ",
+          "https://youtu.be/vmRQiRrVw4U",
+          "https://youtu.be/OLhiWvIZCJU",
+          "https://youtu.be/6Azu2aiJlSg"
         ]
-      },
-      "gallery": [
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-tayler-mccollum-a/800/600",
-          "alt": "Gallery \u2014 Tayler McCollum, image 1"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-tayler-mccollum-b/800/600",
-          "alt": "Gallery \u2014 Tayler McCollum, image 2"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-tayler-mccollum-c/800/600",
-          "alt": "Gallery \u2014 Tayler McCollum, image 3"
-        }
-      ]
+      }
     },
     "focusTags": [
       "Bullying",
@@ -202,21 +157,13 @@
     "quote": "Betrayal trauma coach and author who supports people healing from infidelity and relationship trauma so they can reclaim their lives.",
     "heroImage": "https://picsum.photos/seed/gotl-hero-samantha-bailey/1200/480",
     "social": {
-      "instagram": "https://example.com/social/instagram/samantha-bailey",
-      "facebook": "https://example.com/social/facebook/samantha-bailey",
-      "twitter": "https://example.com/social/twitter/samantha-bailey",
-      "tiktok": "https://example.com/social/tiktok/samantha-bailey",
-      "linkedin": "https://example.com/social/linkedin/samantha-bailey",
-      "youtube": "https://example.com/social/youtube/samantha-bailey",
-      "threads": "https://example.com/social/threads/samantha-bailey",
-      "pinterest": "https://example.com/social/pinterest/samantha-bailey",
-      "bluesky": "https://example.com/social/bluesky/samantha-bailey",
-      "mastodon": "https://example.com/social/mastodon/samantha-bailey",
-      "github": "https://example.com/social/github/samantha-bailey",
-      "snapchat": "https://example.com/social/snapchat/samantha-bailey"
+      "instagram": "https://www.instagram.com/authorsambailey/",
+      "facebook": "https://www.facebook.com/samantha.bailey.356824",
+      "website": "https://help4betrayaltrauma.com/",
+      "facebook_group": "https://www.facebook.com/groups/546775824503459/"
     },
     "media": {
-      "spotifyUrl": "https://example.com/spotify/show/samantha-bailey",
+      "spotifyUrl": "https://open.spotify.com/episode/5qsyCRrywQ8t0horysIitb?si=yR_t1YqOSmmv7-YiTOQ0yw",
       "youtube": {
         "channelUrl": "https://example.com/youtube/channel/samantha-bailey",
         "videoUrls": [
@@ -224,24 +171,13 @@
           "https://example.com/youtube/watch?v=demo-samantha-bailey-2"
         ],
         "reelUrls": [
-          "https://example.com/youtube/shorts/demo-samantha-bailey-r1",
-          "https://example.com/youtube/shorts/demo-samantha-bailey-r2"
+          "https://youtu.be/PM9l220tmSU",
+          "https://youtu.be/r42DqzelJ9Q",
+          "https://youtu.be/YL-UTjfkp_0",
+          "https://youtu.be/Ahy-FKBXwBc",
+          "https://youtu.be/7fbYBX729KM"
         ]
-      },
-      "gallery": [
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-samantha-bailey-a/800/600",
-          "alt": "Gallery \u2014 Samantha Bailey, image 1"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-samantha-bailey-b/800/600",
-          "alt": "Gallery \u2014 Samantha Bailey, image 2"
-        },
-        {
-          "url": "https://picsum.photos/seed/gotl-gal-samantha-bailey-c/800/600",
-          "alt": "Gallery \u2014 Samantha Bailey, image 3"
-        }
-      ]
+      }
     },
     "focusTags": [
       "Chronic infidelity",
